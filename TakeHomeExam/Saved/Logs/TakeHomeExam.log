@@ -1152,3 +1152,344 @@ LogInit: Object subsystem initialized
 [2017.05.18-13.06.38:407][281]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.06.38
 [2017.05.18-13.06.38:408][281]LogWorld: Bringing up level for play took: 0.001854
 [2017.05.18-13.06.38:409][281]LogLoad: Took 0.036866 seconds to LoadMap(/Game/Levels/UEDPIE_0_enemylevel)
+[2017.05.18-13.09.19:701][970]BlueprintLog: New page: Compile EnemyAI
+[2017.05.18-13.09.20:733][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyAI.uasset" SILENT=true
+[2017.05.18-13.09.20:746][ 15]LogSavePackage: Save=11.89ms
+[2017.05.18-13.09.20:746][ 15]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyAI9474E5784166A2595B16E0892C832E2E.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyAI.uasset'
+[2017.05.18-13.09.20:748][ 15]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyAI.uasset
+[2017.05.18-13.09.43:157][448]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.09.45:693][637]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-13.09.47:052][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-13.09.47:086][639]LogSavePackage: Save=32.47ms
+[2017.05.18-13.09.47:086][639]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP2673D74A4BA2B7CEFD9973A0EAFEB3BF.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-13.09.47:089][639]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-13.10.09:991][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/enemylevel" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.10.10:040][642]LogSavePackage: Save=31.53ms
+[2017.05.18-13.10.10:040][642]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/enemylevel242CFF3A431F9326882186BE219DF567.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap'
+[2017.05.18-13.10.10:042][642]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap
+[2017.05.18-13.10.12:379][818]LightingResults: New page: Lighting Build
+[2017.05.18-13.10.12:381][818]MapCheck: New page: Map Check
+[2017.05.18-13.10.12:381][818]LightingResults: New page: Lighting Build
+[2017.05.18-13.10.12:396][818]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-13.10.12:399][818]LoadErrors: New page: New Map
+[2017.05.18-13.10.18:543][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.10.18:566][ 24]LogSavePackage: Save=8.40ms
+[2017.05.18-13.10.18:566][ 24]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapADC8B1B34DC865E40753D386EE3DA6ED.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.10.18:568][ 24]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.10.18:582][ 24]LogFileHelpers: Saving map 'Map' took 0.160
+[2017.05.18-13.10.41:512][969]LogActorFactory: Actor Factory created Plane
+[2017.05.18-13.10.41:868][ 11]LogActorFactory: Actor Factory created Plane
+[2017.05.18-13.11.07:375][918]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-13.11.28:478][872]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.11.47:550][759]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-13.12.14:983][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.12.24:379][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.12.25:175][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.12.26:182][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.12.26:237][839]LogSavePackage: Save=36.73ms
+[2017.05.18-13.12.26:237][839]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapE94636D045AE8C2354E121A070F764F4.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.12.26:239][839]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.12.31:236][407]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-13.13.20:028][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.05.18-13.13.37:924][945]Cmd: TRANSACTION UNDO
+[2017.05.18-13.13.37:924][945]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.13.37:927][945]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.13.37:927][945]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.13.37:927][945]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.13.49:569][  4]Cmd: TRANSACTION UNDO
+[2017.05.18-13.13.49:569][  4]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.13.49:573][  4]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.05.18-13.13.49:573][  4]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.13.49:573][  4]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.13.49:946][  4]Cmd: TRANSACTION UNDO
+[2017.05.18-13.13.49:946][  4]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.13.49:949][  4]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.05.18-13.13.49:949][  4]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.13.49:949][  4]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.13.51:266][ 77]Cmd: TRANSACTION UNDO
+[2017.05.18-13.13.51:266][ 77]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.13.51:269][ 77]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.05.18-13.13.51:269][ 77]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.13.51:269][ 77]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.14.27:086][ 13]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.14.35:085][753]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.14.36:626][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.14.45:130][736]Cmd: TRANSACTION UNDO
+[2017.05.18-13.14.45:130][736]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.14.45:134][736]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.14.45:134][736]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.14.45:134][736]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.14.50:869][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.14.58:855][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.15.12:088][446]LogGeomTools: Triangulation of poly failed.
+[2017.05.18-13.15.12:088][446]LogGeomTools: Triangulation of poly failed.
+[2017.05.18-13.15.13:356][589]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.13:356][589]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.13:360][589]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.15.13:360][589]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.15.13:360][589]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.15.14:664][674]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.14:664][674]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.15:776][736]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.15:776][736]LogEditorTransaction: Undo Select Brush Surface
+[2017.05.18-13.15.17:633][844]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.17:633][844]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.18-13.15.18:902][920]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.18:902][920]LogEditorTransaction: Undo Modifier [Weld]
+[2017.05.18-13.15.19:996][981]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.19:996][981]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.20:921][ 23]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.20:921][ 23]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.25:751][521]LogGeomTools: Triangulation of poly failed.
+[2017.05.18-13.15.26:545][608]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.26:545][608]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.26:549][608]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.15.26:549][608]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.15.26:549][608]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.15.30:304][975]LogGeomTools: Triangulation of poly failed.
+[2017.05.18-13.15.31:413][104]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.31:413][104]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.31:416][104]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.15.31:416][104]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.15.31:416][104]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.15.32:538][163]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.32:538][163]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.35:498][449]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.35:498][449]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.35:995][449]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.35:995][449]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.36:559][449]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.36:559][449]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.37:145][449]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.37:145][449]LogEditorTransaction: Undo Select Brush Surface
+[2017.05.18-13.15.38:000][449]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.38:000][449]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.18-13.15.38:442][449]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.38:442][449]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.38:881][449]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.15.41:343][587]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.41:343][587]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.18-13.15.41:658][587]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.41:658][587]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.42:023][587]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.42:023][587]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.42:420][587]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.42:420][587]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.44:848][795]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.44:848][795]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.45:202][795]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.45:202][795]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.45:565][795]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.45:565][795]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.45:961][795]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.45:961][795]LogEditorTransaction: Undo Modifier [Weld]
+[2017.05.18-13.15.47:506][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.47:506][890]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.47:924][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.47:924][890]LogEditorTransaction: Undo Modifier [Pen]
+[2017.05.18-13.15.48:438][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.48:438][890]LogEditorTransaction: Undo Select Brush Surface
+[2017.05.18-13.15.49:251][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.49:251][890]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.18-13.15.49:252][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.49:252][890]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.18-13.15.49:684][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.49:684][890]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.50:120][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.50:120][890]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.50:123][890]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.15.50:123][890]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.15.50:123][890]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.15.50:562][890]Cmd: TRANSACTION UNDO
+[2017.05.18-13.15.50:562][890]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.15.50:565][890]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.15.50:565][890]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.15.50:565][890]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.16.35:945][ 20]Cmd: DELETE
+[2017.05.18-13.16.35:946][ 20]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.05.18-13.16.35:946][ 20]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.16.35:946][ 20]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.16.36:501][ 78]Cmd: DELETE
+[2017.05.18-13.16.36:501][ 78]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.05.18-13.16.36:501][ 78]LogGeometryMode:Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2017.05.18-13.16.36:501][ 78]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.16.37:618][210]Cmd: DELETE
+[2017.05.18-13.16.37:621][210]Cmd: ACTOR DELETE
+[2017.05.18-13.16.37:624][210]LogEditorActor: Deleted Actor: Brush
+[2017.05.18-13.16.37:647][210]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2017.05.18-13.16.43:074][817]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-13.17.38:672][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.17.41:521][105]Cmd: TRANSACTION UNDO
+[2017.05.18-13.17.41:521][105]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.18-13.17.41:779][105]Cmd: TRANSACTION UNDO
+[2017.05.18-13.17.41:779][105]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.17.42:691][142]Cmd: TRANSACTION UNDO
+[2017.05.18-13.17.42:691][142]LogEditorTransaction: Undo Modifier [Edit]
+[2017.05.18-13.17.43:795][191]Cmd: TRANSACTION UNDO
+[2017.05.18-13.17.43:795][191]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.17.43:800][191]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-13.17.43:800][191]LogGeometryMode:Warning: Unable to resolve BoxBrush3_5 Brush in new BSP, see above
+[2017.05.18-13.17.43:800][191]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-13.17.44:419][198]Cmd: TRANSACTION UNDO
+[2017.05.18-13.17.44:419][198]LogEditorTransaction: Undo Modifier [Edit]
+[2017.05.18-13.17.45:703][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.18.14:212][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.18.21:750][ 85]Cmd: TRANSACTION UNDO
+[2017.05.18-13.18.21:750][ 85]LogEditorTransaction: Undo Select Brush Surface
+[2017.05.18-13.18.23:150][146]Cmd: TRANSACTION UNDO
+[2017.05.18-13.18.23:150][146]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.18-13.18.24:160][188]Cmd: TRANSACTION UNDO
+[2017.05.18-13.18.24:160][188]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.18.25:140][230]Cmd: TRANSACTION UNDO
+[2017.05.18-13.18.25:140][230]LogEditorTransaction: Undo Modifier [Edit]
+[2017.05.18-13.18.26:192][279]Cmd: TRANSACTION UNDO
+[2017.05.18-13.18.26:192][279]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.18.36:223][345]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.18.37:718][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.18.46:082][350]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-13.18.55:731][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.19.01:570][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.19.10:770][751]Cmd: TRANSACTION UNDO
+[2017.05.18-13.19.10:770][751]LogEditorTransaction: Undo Scale Actors
+[2017.05.18-13.19.10:773][751]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Map.Map:PersistentLevel.BoxBrush3_5.BrushComponent0) Component already registered.
+[2017.05.18-13.19.16:299][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.05.18-13.19.18:418][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.19.18:540][449]LogSavePackage: Save=103.13ms
+[2017.05.18-13.19.18:540][449]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map5484881A4B4F075F72FC60AC7E73229B.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.19.18:543][449]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.19.33:126][211]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-13.19.58:253][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.19.58:309][ 46]LogSavePackage: Save=36.03ms
+[2017.05.18-13.19.58:309][ 46]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapB0018E054871181601FCA8A69D66CF81.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.19.58:312][ 46]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.20.04:581][698]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.04:582][698]LogTemp:Display: Added material ShaderMap 0x000001B59EDE9980 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.04:591][698]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B59EDE9980
+[2017.05.18-13.20.04:792][698]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.04:793][698]LogTemp:Display: Added material ShaderMap 0x000001B4DD5CA080 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.04:802][698]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B4DD5CA080
+[2017.05.18-13.20.04:802][698]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.06:205][716]LogTemp:Display: Finished compile of shader map 0x000001B4DD5CA080
+[2017.05.18-13.20.06:205][716]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B4DD5CA080, marking material Floor as finished
+[2017.05.18-13.20.06:205][716]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.06:216][717]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.20.06:217][717]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.18-13.20.06:217][717]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.18-13.20.08:875][953]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.08:876][953]LogTemp:Display: Added material ShaderMap 0x000001B4C4071D00 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.08:885][953]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B4C4071D00
+[2017.05.18-13.20.08:885][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.08:886][953]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.18-13.20.08:887][953]LogTemp:Display: Added material ShaderMap 0x000001B5AE504800 with Material 0x000001B579122800 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.08:889][953]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x000001B5AE504800
+[2017.05.18-13.20.10:929][121]LogTemp:Display: Finished compile of shader map 0x000001B4C4071D00
+[2017.05.18-13.20.10:929][121]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B4C4071D00, marking material Floor as finished
+[2017.05.18-13.20.10:929][121]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.10:942][122]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.20.10:942][122]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.18-13.20.10:942][122]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.18-13.20.10:988][125]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.10:988][125]LogTemp:Display: Added material ShaderMap 0x000001B4C567EE80 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.10:998][125]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B4C567EE80
+[2017.05.18-13.20.10:998][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.11:006][125]LogTemp:Display: Removed shader map 0x000001B5AE504800 from material 0x000001B579122800
+[2017.05.18-13.20.11:029][125]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.18-13.20.11:029][125]LogTemp:Display: Added material ShaderMap 0x000001B4AA852B00 with Material 0x000001B59FF4DF00 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.11:031][125]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x000001B4AA852B00
+[2017.05.18-13.20.11:141][135]LogTemp:Display: Finished compile of shader map 0x000001B5AE504800
+[2017.05.18-13.20.12:964][264]LogTemp:Display: Finished compile of shader map 0x000001B4C567EE80
+[2017.05.18-13.20.12:964][264]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B4C567EE80, marking material Floor as finished
+[2017.05.18-13.20.12:964][264]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.12:978][265]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.20.12:978][265]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.18-13.20.12:978][265]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.18-13.20.13:169][278]LogTemp:Display: Finished compile of shader map 0x000001B4AA852B00
+[2017.05.18-13.20.13:169][278]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x000001B4AA852B00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2017.05.18-13.20.13:169][278]LogTemp:Display: Marking material as finished 0x000001B59FF4DF00
+[2017.05.18-13.20.13:885][345]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.13:886][345]LogTemp:Display: Added material ShaderMap 0x000001B4D1184800 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.13:895][345]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B4D1184800
+[2017.05.18-13.20.13:896][345]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.13:923][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.18-13.20.13:923][345]LogTemp:Display: Added material ShaderMap 0x000001B5BF0A6E80 with Material 0x000001B59F64F400 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.13:925][345]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x000001B5BF0A6E80
+[2017.05.18-13.20.14:574][399]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.14:575][399]LogTemp:Display: Added material ShaderMap 0x000001B5BF0A4800 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.14:585][399]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B5BF0A4800
+[2017.05.18-13.20.14:585][399]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.14:588][399]LogTemp:Display: Removed shader map 0x000001B5BF0A6E80 from material 0x000001B59F64F400
+[2017.05.18-13.20.14:611][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.18-13.20.14:611][399]LogTemp:Display: Added material ShaderMap 0x000001B4E9C93580 with Material 0x000001B58B26A800 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.14:613][399]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x000001B4E9C93580
+[2017.05.18-13.20.14:719][408]LogTemp:Display: Finished compile of shader map 0x000001B4D1184800
+[2017.05.18-13.20.14:719][408]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B4D1184800, marking material Floor as finished
+[2017.05.18-13.20.14:719][408]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.15:547][480]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.15:547][480]LogTemp:Display: Added material ShaderMap 0x000001B4E9C91980 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.15:557][480]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B4E9C91980
+[2017.05.18-13.20.15:558][480]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.15:564][480]LogTemp:Display: Removed shader map 0x000001B4E9C93580 from material 0x000001B58B26A800
+[2017.05.18-13.20.15:587][480]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.18-13.20.15:588][480]LogTemp:Display: Added material ShaderMap 0x000001B55A493580 with Material 0x000001B59F64E800 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.15:590][480]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x000001B55A493580
+[2017.05.18-13.20.15:957][511]LogTemp:Display: Finished compile of shader map 0x000001B5BF0A4800
+[2017.05.18-13.20.15:957][511]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B5BF0A4800, marking material Floor as finished
+[2017.05.18-13.20.15:957][511]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.17:882][676]LogTemp:Display: Finished compile of shader map 0x000001B4E9C91980
+[2017.05.18-13.20.17:882][676]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B4E9C91980, marking material Floor as finished
+[2017.05.18-13.20.17:882][676]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.17:898][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.20.17:898][677]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.18-13.20.17:898][677]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.18-13.20.18:040][689]LogTemp:Display: Finished compile of shader map 0x000001B55A493580
+[2017.05.18-13.20.18:040][689]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x000001B55A493580, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2017.05.18-13.20.18:040][689]LogTemp:Display: Marking material as finished 0x000001B59F64E800
+[2017.05.18-13.20.20:795][914]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.20:796][914]LogTemp:Display: Added material ShaderMap 0x000001B53CEE6B00 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.20:804][914]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B53CEE6B00
+[2017.05.18-13.20.20:805][914]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.20:833][914]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.05.18-13.20.20:834][914]LogTemp:Display: Added material ShaderMap 0x000001B5790D9600 with Material 0x000001B4FB912E00 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.20:836][914]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x000001B5790D9600
+[2017.05.18-13.20.22:477][ 56]LogMaterialEditor: Saving and Compiling material Floor
+[2017.05.18-13.20.23:132][ 56]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.23:133][ 56]LogTemp:Display: Added material ShaderMap 0x000001B55A490F00 with Material 0x000001B5AAAFF600 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.23:152][ 56]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B55A490F00
+[2017.05.18-13.20.23:152][ 56]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.23:175][ 56]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.23:176][ 56]LogTemp:Display: Added material ShaderMap 0x000001B5294FC480 with Material 0x000001B5C9D67B80 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.23:192][ 56]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B5294FC480
+[2017.05.18-13.20.23:194][ 56]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.18-13.20.23:194][ 56]LogTemp:Display: Added material ShaderMap 0x000001B4FC336780 with Material 0x000001B5C9D67B80 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.23:206][ 56]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x000001B4FC336780
+[2017.05.18-13.20.23:207][ 56]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-13.20.23:227][ 56]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Floor, compiling. 
+[2017.05.18-13.20.23:228][ 56]LogTemp:Display: Added material ShaderMap 0x000001B55A491D00 with Material 0x000001B4FAEA0A00 to ShaderMapsBeingCompiled
+[2017.05.18-13.20.23:984][ 56]LogTemp:Display: Finished compile of shader map 0x000001B55A491D00
+[2017.05.18-13.20.23:984][ 56]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Floor complete, GameThreadShaderMap 0x000001B55A491D00, marking material FDebugViewModeMaterialProxy Floor as finished
+[2017.05.18-13.20.23:984][ 56]LogTemp:Display: Marking material as finished 0x000001B4FAEA0A00
+[2017.05.18-13.20.23:988][ 56]TextureStreamingBuild:Display: Compiling optional shaders took 0.765 seconds.
+[2017.05.18-13.20.25:174][ 56]LogTemp:Display: Finished compile of shader map 0x000001B4FC336780
+[2017.05.18-13.20.25:174][ 56]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B4FC336780, marking material Floor as finished
+[2017.05.18-13.20.25:174][ 56]LogTemp:Display: Marking material as finished 0x000001B5C9D67B80
+[2017.05.18-13.20.25:179][ 56]LogTemp:Display: Finished compile of shader map 0x000001B5790D9600
+[2017.05.18-13.20.25:179][ 56]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x000001B5790D9600, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2017.05.18-13.20.25:179][ 56]LogTemp:Display: Marking material as finished 0x000001B4FB912E00
+[2017.05.18-13.20.25:180][ 56]LogTemp:Display: Finished compile of shader map 0x000001B55A490F00
+[2017.05.18-13.20.25:180][ 56]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B55A490F00, marking material Floor as finished
+[2017.05.18-13.20.25:180][ 56]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.25:183][ 56]LogTemp:Display: Finished compile of shader map 0x000001B53CEE6B00
+[2017.05.18-13.20.25:183][ 56]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x000001B53CEE6B00, marking material Floor as finished
+[2017.05.18-13.20.25:183][ 56]LogTemp:Display: Marking material as finished 0x000001B5AAAFF600
+[2017.05.18-13.20.25:197][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Floor" FILE="D:/2017GameEngine/TakeHomeExam/Content/Floor.uasset" SILENT=true
+[2017.05.18-13.20.25:210][ 56]LogSavePackage: Save=11.50ms
+[2017.05.18-13.20.25:210][ 56]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Floor495A598D49887B6F91D682BAF2C6BB02.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Floor.uasset'
+[2017.05.18-13.20.25:212][ 56]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Floor.uasset
+[2017.05.18-13.20.25:218][ 56]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-13.20.25:218][ 56]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.18-13.20.25:218][ 56]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.05.18-13.20.26:543][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.20.43:538][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.20.43:578][158]LogSavePackage: Save=22.76ms
+[2017.05.18-13.20.43:578][158]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapEC1014CB4FD43C917E9C628441529DCF.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.20.43:580][158]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
