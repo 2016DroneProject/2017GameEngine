@@ -1761,3 +1761,698 @@ Make sure 'HUD_C' has been compiled for  Get ScoreText
 [2017.05.18-13.44.00:250][674]LogSavePackage: Save=29.36ms
 [2017.05.18-13.44.00:250][674]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map649E5FA4426E3098B33EAF811EF7351D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
 [2017.05.18-13.44.00:253][674]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.45.22:436][653]BlueprintLog: New page: Compile HeroBP
+[2017.05.18-13.45.26:668][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-13.45.26:713][659]LogSavePackage: Save=42.91ms
+[2017.05.18-13.45.26:713][659]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/HeroBP3FC4809F42554566767F198A0FD40437.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset'
+[2017.05.18-13.45.26:717][659]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset
+[2017.05.18-13.45.28:420][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.45.28:513][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.45.33:477][244]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.45.34:557][293]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2017.05.18-13.45.41:511][ 50]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.45.41:519][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.45.41:519][ 50]PIE: New page: PIE session: Map (May 19, 2017, 7:45:41 AM)
+[2017.05.18-13.45.41:519][ 50]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.45.41:527][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007337s)
+[2017.05.18-13.45.41:527][ 50]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.45.41:527][ 50]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.05.18-13.45.41:527][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008071s)
+[2017.05.18-13.45.41:549][ 50]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.45.41:562][ 50]LogInit: FAudioDevice initialized.
+[2017.05.18-13.45.41:592][ 50]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.45.41:594][ 50]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.45.41
+[2017.05.18-13.45.41:594][ 50]LogWorld: Bringing up level for play took: 0.001191
+[2017.05.18-13.45.41:596][ 50]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.44
+[2017.05.18-13.45.42:517][157]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.45.42:517][157]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.45.43:024][217]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.45.43:024][217]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.45.43:191][237]LogCharacterMovement: HeroBP_C_0 is stuck and failed to move! Velocity: X=-17.09 Y=0.00 Z=0.00 Location: X=0.00 Y=0.00 Z=-99.85 Normal: X=1.00 Y=-0.00 Z=0.00 PenetrationDepth:0.000 Actor:EnemyBP_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.05.18-13.45.43:225][241]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.45.43:225][241]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.45.43:425][265]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.45.43:425][265]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.45.43:517][276]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=48.018 Y=-48.099 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.45.43:625][289]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.45.43:625][289]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.45.43:625][289]Cmd: restartlevel
+[2017.05.18-13.45.43:632][290]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-13.45.43:632][290]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-13.45.43:646][290]Cmd: MEM
+[2017.05.18-13.45.43:658][290]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.45.43:659][290]LogMemory: Process Physical Memory: 2503.31 MB used, 3300.04 MB peak
+[2017.05.18-13.45.43:659][290]LogMemory: Process Virtual Memory: 4793.33 MB used, 4809.68 MB peak
+[2017.05.18-13.45.43:659][290]LogMemory: Physical Memory: 7124.73 MB used,  9194.79 MB free, 16319.53 MB total
+[2017.05.18-13.45.43:659][290]LogMemory: Virtual Memory: 5810.40 MB used,  9194.79 MB free, 134217728.00 MB total
+[2017.05.18-13.45.43:659][290]LogMemory: 
+[2017.05.18-13.45.43:659][290]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.45.43:659][290]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.45.43:666][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008004s)
+[2017.05.18-13.45.43:667][290]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.45.43:667][290]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2017.05.18-13.45.43:667][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008821s)
+[2017.05.18-13.45.43:667][290]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.45.43:669][290]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.45.43
+[2017.05.18-13.45.43:669][290]LogWorld: Bringing up level for play took: 0.001055
+[2017.05.18-13.45.43:671][290]LogLoad: Took 0.039399 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-13.45.44:639][391]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.45.44:639][391]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.46.32:052][716]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.46.37:523][175]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.46.38:427][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-13.46.38:447][201]LogSavePackage: Save=16.27ms
+[2017.05.18-13.46.38:447][201]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameModeC1CF95C0455BB7D22FFE50BFF0F6889B.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-13.46.38:451][201]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-13.46.50:908][588]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.46.50:917][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.46.50:917][588]PIE: New page: PIE session: Map (May 19, 2017, 7:46:50 AM)
+[2017.05.18-13.46.50:917][588]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.46.50:924][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007377s)
+[2017.05.18-13.46.50:925][588]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.46.50:925][588]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2017.05.18-13.46.50:925][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008343s)
+[2017.05.18-13.46.50:943][588]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.46.50:956][588]LogInit: FAudioDevice initialized.
+[2017.05.18-13.46.50:989][588]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.46.50:991][588]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.46.50
+[2017.05.18-13.46.50:991][588]LogWorld: Bringing up level for play took: 0.001070
+[2017.05.18-13.46.50:993][588]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.958
+[2017.05.18-13.46.51:911][662]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.46.51:911][662]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.46.52:426][724]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.46.52:426][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.46.52:568][741]LogCharacterMovement: HeroBP_C_0 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=0.00 Y=0.00 Z=-99.85 Normal: X=1.00 Y=-0.00 Z=0.00 PenetrationDepth:0.000 Actor:EnemyBP_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.05.18-13.46.52:627][748]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.46.52:627][748]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.46.52:827][762]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.46.52:827][762]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.46.52:911][772]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=49.737 Y=-46.153 Z=0.005] for [EnemyBP_C]
+[2017.05.18-13.46.53:027][786]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.46.53:027][786]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.46.53:027][786]Cmd: restartlevel
+[2017.05.18-13.46.53:034][787]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-13.46.53:034][787]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-13.46.53:049][787]Cmd: MEM
+[2017.05.18-13.46.53:062][787]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.46.53:062][787]LogMemory: Process Physical Memory: 2473.51 MB used, 3300.04 MB peak
+[2017.05.18-13.46.53:062][787]LogMemory: Process Virtual Memory: 4699.73 MB used, 4809.68 MB peak
+[2017.05.18-13.46.53:062][787]LogMemory: Physical Memory: 7102.52 MB used,  9217.00 MB free, 16319.53 MB total
+[2017.05.18-13.46.53:062][787]LogMemory: Virtual Memory: 5730.59 MB used,  9217.00 MB free, 134217728.00 MB total
+[2017.05.18-13.46.53:062][787]LogMemory: 
+[2017.05.18-13.46.53:062][787]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.46.53:062][787]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.46.53:070][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007754s)
+[2017.05.18-13.46.53:071][787]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.46.53:071][787]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.05.18-13.46.53:071][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008513s)
+[2017.05.18-13.46.53:071][787]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.46.53:073][787]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.46.53
+[2017.05.18-13.46.53:074][787]LogWorld: Bringing up level for play took: 0.001511
+[2017.05.18-13.46.53:076][787]LogLoad: Took 0.041735 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-13.47.07:093][967]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.47.07:103][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.47.07:103][967]PIE: New page: PIE session: Map (May 19, 2017, 7:47:07 AM)
+[2017.05.18-13.47.07:103][967]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.47.07:111][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008057s)
+[2017.05.18-13.47.07:111][967]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.47.07:112][967]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2017.05.18-13.47.07:112][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008901s)
+[2017.05.18-13.47.07:131][967]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.47.07:144][967]LogInit: FAudioDevice initialized.
+[2017.05.18-13.47.07:173][967]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.47.07:175][967]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.47.07
+[2017.05.18-13.47.07:176][967]LogWorld: Bringing up level for play took: 0.001108
+[2017.05.18-13.47.07:177][967]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.858
+[2017.05.18-13.47.08:103][ 66]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=43.679 Y=0.000 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.47.10:099][293]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3.751 Y=-63.552 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.47.10:601][352]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3.753 Y=-63.350 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.47.11:101][412]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=5.917 Y=-39.520 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.47.11:601][472]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=23.371 Y=20.347 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-13.47.19:275][276]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.47.19:285][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.47.19:285][276]PIE: New page: PIE session: Map (May 19, 2017, 7:47:19 AM)
+[2017.05.18-13.47.19:285][276]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.47.19:292][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007487s)
+[2017.05.18-13.47.19:293][276]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.47.19:293][276]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.05.18-13.47.19:293][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008587s)
+[2017.05.18-13.47.19:312][276]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.47.19:325][276]LogInit: FAudioDevice initialized.
+[2017.05.18-13.47.19:358][276]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.47.19:360][276]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.47.19
+[2017.05.18-13.47.19:361][276]LogWorld: Bringing up level for play took: 0.001020
+[2017.05.18-13.47.19:362][276]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.673
+[2017.05.18-13.47.20:278][378]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.47.20:278][378]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.47.20:793][440]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.47.20:793][440]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.47.20:995][458]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.47.20:995][458]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.47.21:195][482]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.47.21:195][482]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.47.21:396][506]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.47.21:396][506]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.47.21:396][506]Cmd: restartlevel
+[2017.05.18-13.47.21:403][507]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-13.47.21:403][507]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-13.47.21:419][507]Cmd: MEM
+[2017.05.18-13.47.21:432][507]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.47.21:432][507]LogMemory: Process Physical Memory: 2473.02 MB used, 3300.04 MB peak
+[2017.05.18-13.47.21:432][507]LogMemory: Process Virtual Memory: 4706.80 MB used, 4809.68 MB peak
+[2017.05.18-13.47.21:432][507]LogMemory: Physical Memory: 7093.93 MB used,  9225.60 MB free, 16319.53 MB total
+[2017.05.18-13.47.21:432][507]LogMemory: Virtual Memory: 5730.59 MB used,  9225.60 MB free, 134217728.00 MB total
+[2017.05.18-13.47.21:432][507]LogMemory: 
+[2017.05.18-13.47.21:432][507]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.47.21:432][507]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.47.21:440][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007956s)
+[2017.05.18-13.47.21:441][507]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.47.21:441][507]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2017.05.18-13.47.21:441][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008792s)
+[2017.05.18-13.47.21:441][507]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.47.21:443][507]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.47.21
+[2017.05.18-13.47.21:443][507]LogWorld: Bringing up level for play took: 0.001280
+[2017.05.18-13.47.21:445][507]LogLoad: Took 0.042427 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-13.47.29:127][220]LogEditorActor: Deleted Actor: EnemySpawnerBP_C
+[2017.05.18-13.47.29:140][220]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.18-13.47.30:113][337]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.47.30:123][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.47.30:123][337]PIE: New page: PIE session: Map (May 19, 2017, 7:47:30 AM)
+[2017.05.18-13.47.30:123][337]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.47.30:130][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007151s)
+[2017.05.18-13.47.30:130][337]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.47.30:130][337]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.05.18-13.47.30:131][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.007900s)
+[2017.05.18-13.47.30:148][337]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.47.30:160][337]LogInit: FAudioDevice initialized.
+[2017.05.18-13.47.30:191][337]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.47.30:193][337]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.47.30
+[2017.05.18-13.47.30:194][337]LogWorld: Bringing up level for play took: 0.001096
+[2017.05.18-13.47.30:195][337]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.16
+[2017.05.18-13.47.42:135][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.47.48:923][737]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TakeHomeExam
+
+[2017.05.18-13.47.48:923][737]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-13.47.48:923][737]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-13.47.48:923][737]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-13.47.48:923][737]LogTemp:Display: BranchPath = DESKTOP-64OHN5C/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-64OHN5C/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-13.47.48:923][737]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-13.47.49:246][737]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\User\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-13.47.49:246][737]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-13.47.49:246][737]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-13.47.49:246][737]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2017.05.18-13.47.49:246][737]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-13.47.49:246][737]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-13.47.49:246][737]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-13.47.54:704][  3]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.48.52:694][793]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.48.52:702][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.48.52:702][793]PIE: New page: PIE session: Map (May 19, 2017, 7:48:52 AM)
+[2017.05.18-13.48.52:702][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.48.52:710][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007973s)
+[2017.05.18-13.48.52:710][793]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.48.52:711][793]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.05.18-13.48.52:711][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008760s)
+[2017.05.18-13.48.52:731][793]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.48.52:744][793]LogInit: FAudioDevice initialized.
+[2017.05.18-13.48.52:777][793]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.48.52:779][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.48.52
+[2017.05.18-13.48.52:779][793]LogWorld: Bringing up level for play took: 0.000945
+[2017.05.18-13.48.52:781][793]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.745
+[2017.05.18-13.49.01:652][676]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.49.01:659][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.49.01:659][676]PIE: New page: PIE session: Map (May 19, 2017, 7:49:01 AM)
+[2017.05.18-13.49.01:659][676]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.49.01:667][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007619s)
+[2017.05.18-13.49.01:668][676]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.49.01:668][676]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.05.18-13.49.01:668][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008321s)
+[2017.05.18-13.49.01:685][676]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.49.01:697][676]LogInit: FAudioDevice initialized.
+[2017.05.18-13.49.01:725][676]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.49.01:728][676]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.49.01
+[2017.05.18-13.49.01:728][676]LogWorld: Bringing up level for play took: 0.001058
+[2017.05.18-13.49.01:730][676]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.305
+[2017.05.18-13.49.05:352][ 38]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.49.05:359][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.49.05:359][ 38]PIE: New page: PIE session: Map (May 19, 2017, 7:49:05 AM)
+[2017.05.18-13.49.05:359][ 38]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.49.05:366][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007724s)
+[2017.05.18-13.49.05:367][ 38]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.49.05:367][ 38]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2017.05.18-13.49.05:367][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008473s)
+[2017.05.18-13.49.05:384][ 38]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.49.05:398][ 38]LogInit: FAudioDevice initialized.
+[2017.05.18-13.49.05:428][ 38]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.49.05:431][ 38]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.49.05
+[2017.05.18-13.49.05:431][ 38]LogWorld: Bringing up level for play took: 0.001411
+[2017.05.18-13.49.05:433][ 38]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.603
+[2017.05.18-13.49.08:867][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.49.08:912][363]LogSavePackage: Save=28.51ms
+[2017.05.18-13.49.08:912][363]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map75FD06784F2BDB0735EEE9A10BF089AF.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.49.08:914][363]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.49.12:051][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.49.12:095][729]LogSavePackage: Save=29.72ms
+[2017.05.18-13.49.12:095][729]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map6167C418431EA4D70C8D3CABCE644109.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.49.12:096][729]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.50.30:890][ 61]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.50.31:621][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-13.50.31:639][ 82]LogSavePackage: Save=16.06ms
+[2017.05.18-13.50.31:639][ 82]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameMode6BF9FA4C4D8DC456436F1DB68C5444DD.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-13.50.31:643][ 82]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-13.50.34:685][343]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.50.54:148][145]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.50.54:157][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.50.54:157][145]PIE: New page: PIE session: Map (May 19, 2017, 7:50:54 AM)
+[2017.05.18-13.50.54:157][145]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.50.54:166][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008341s)
+[2017.05.18-13.50.54:166][145]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.50.54:166][145]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.05.18-13.50.54:167][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009319s)
+[2017.05.18-13.50.54:199][145]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.50.54:214][145]LogInit: FAudioDevice initialized.
+[2017.05.18-13.50.54:246][145]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.50.54:248][145]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.50.54
+[2017.05.18-13.50.54:248][145]LogWorld: Bringing up level for play took: 0.001040
+[2017.05.18-13.50.54:249][145]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.214
+[2017.05.18-13.51.39:851][959]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.51.39:863][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.51.39:863][959]PIE: New page: PIE session: Map (May 19, 2017, 7:51:39 AM)
+[2017.05.18-13.51.39:863][959]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.51.39:882][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018914s)
+[2017.05.18-13.51.39:883][959]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.51.39:883][959]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2017.05.18-13.51.39:883][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.020619s)
+[2017.05.18-13.51.39:918][959]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.51.39:931][959]LogInit: FAudioDevice initialized.
+[2017.05.18-13.51.39:961][959]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.51.39:963][959]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.51.39
+[2017.05.18-13.51.39:963][959]LogWorld: Bringing up level for play took: 0.001131
+[2017.05.18-13.51.39:965][959]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.07
+[2017.05.18-13.51.58:027][185]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.51.58:034][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.51.58:035][185]PIE: New page: PIE session: Map (May 19, 2017, 7:51:58 AM)
+[2017.05.18-13.51.58:035][185]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.51.58:043][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007859s)
+[2017.05.18-13.51.58:043][185]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.51.58:043][185]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2017.05.18-13.51.58:043][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008716s)
+[2017.05.18-13.51.58:072][185]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.51.58:083][185]LogInit: FAudioDevice initialized.
+[2017.05.18-13.51.58:115][185]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.51.58:117][185]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.51.58
+[2017.05.18-13.51.58:119][185]LogWorld: Bringing up level for play took: 0.002692
+[2017.05.18-13.51.58:121][185]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.085
+[2017.05.18-13.51.59:036][292]LogScript:Warning: Accessed None trying to read property GameUI
+	HeroBP_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.HeroBP_C_0
+	Function /Game/Hero/HeroBP.HeroBP_C:ExecuteUbergraph_HeroBP:0075
+[2017.05.18-13.51.59:036][292]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.51.59:544][352]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.51.59:745][376]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.51.59:944][400]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.52.00:530][468]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=68.000 Y=0.000 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.52.01:533][588]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=11.780 Y=-37.426 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.52.02:035][648]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=10.990 Y=-24.923 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.52.03:032][767]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-51.632 Y=31.997 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.52.04:529][944]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-25.856 Y=-37.490 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-13.52.05:029][  4]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32.025 Y=-33.667 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.52.05:499][ 59]LogScript:Warning: Accessed None trying to read property GameUI
+	ShooterGameMode_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.ShooterGameMode_C_0
+	Function /Game/ShooterGameMode.ShooterGameMode_C:IncreaseScore:0054
+[2017.05.18-13.52.05:500][ 59]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'IncreaseScore' from node: Update Score in graph: IncreaseScore in object: ShooterGameMode with description: Accessed None trying to read property GameUI
+[2017.05.18-13.52.05:876][104]LogScript:Warning: Accessed None trying to read property GameUI
+	ShooterGameMode_C /Game/Levels/UEDPIE_0_Map.Map:PersistentLevel.ShooterGameMode_C_0
+	Function /Game/ShooterGameMode.ShooterGameMode_C:IncreaseScore:0054
+[2017.05.18-13.52.05:876][104]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'IncreaseScore' from node: Update Score in graph: IncreaseScore in object: ShooterGameMode with description: Accessed None trying to read property GameUI
+[2017.05.18-13.52.06:035][123]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-13.431 Y=-21.616 Z=0.000] for [EnemyBP_C]
+[2017.05.18-13.52.07:030][240]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=9.079 Y=14.611 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-13.52.07:459][290]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.52.07:460][290]Cmd: restartlevel
+[2017.05.18-13.52.07:467][291]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-13.52.07:467][291]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-13.52.07:485][291]Cmd: MEM
+[2017.05.18-13.52.07:497][291]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.52.07:497][291]LogMemory: Process Physical Memory: 2406.98 MB used, 3300.04 MB peak
+[2017.05.18-13.52.07:497][291]LogMemory: Process Virtual Memory: 4686.43 MB used, 5022.10 MB peak
+[2017.05.18-13.52.07:497][291]LogMemory: Physical Memory: 7190.09 MB used,  9129.43 MB free, 16319.53 MB total
+[2017.05.18-13.52.07:497][291]LogMemory: Virtual Memory: 5706.62 MB used,  9129.43 MB free, 134217728.00 MB total
+[2017.05.18-13.52.07:497][291]LogMemory: 
+[2017.05.18-13.52.07:497][291]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.52.07:497][291]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.52.07:505][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007643s)
+[2017.05.18-13.52.07:505][291]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.52.07:505][291]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.05.18-13.52.07:506][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008467s)
+[2017.05.18-13.52.07:506][291]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.52.07:508][291]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.52.07
+[2017.05.18-13.52.07:508][291]LogWorld: Bringing up level for play took: 0.001111
+[2017.05.18-13.52.07:510][291]LogLoad: Took 0.042339 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-13.52.16:109][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.52.16:154][191]LogSavePackage: Save=31.39ms
+[2017.05.18-13.52.16:154][191]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapF1B9760C4903027AF74855A92AFA9BC1.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.52.16:157][191]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.52.53:698][ 95]Cmd: MAP LOAD FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-13.52.53:698][ 95]LightingResults: New page: Lighting Build
+[2017.05.18-13.52.53:700][ 95]LoadErrors: New page: Loading map: Map.umap
+[2017.05.18-13.52.53:700][ 95]MapCheck: New page: Map Check
+[2017.05.18-13.52.53:700][ 95]LightingResults: New page: Lighting Build
+[2017.05.18-13.52.53:795][ 95]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.52.53:798][ 95]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-13.52.53:810][ 95]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-13.52.53:905][ 95]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.341ms to complete.
+[2017.05.18-13.52.53:906][ 95]LogFileHelpers: Loading map 'Map' took 0.211
+[2017.05.18-13.54.42:961][541]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.54.42:971][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.54.42:972][541]PIE: New page: PIE session: Map (May 19, 2017, 7:54:42 AM)
+[2017.05.18-13.54.42:972][541]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.54.42:979][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007129s)
+[2017.05.18-13.54.42:979][541]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.54.42:979][541]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.05.18-13.54.42:979][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.007903s)
+[2017.05.18-13.54.42:998][541]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.54.43:011][541]LogInit: FAudioDevice initialized.
+[2017.05.18-13.54.43:043][541]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.54.43:045][541]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.54.43
+[2017.05.18-13.54.43:046][541]LogWorld: Bringing up level for play took: 0.001288
+[2017.05.18-13.54.43:048][541]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 1.012
+[2017.05.18-13.54.43:970][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.54.44:485][678]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.54.44:685][702]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.54.44:885][726]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.54.45:085][750]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.54.45:086][750]Cmd: restartlevel
+[2017.05.18-13.54.45:093][751]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-13.54.45:093][751]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-13.54.45:110][751]Cmd: MEM
+[2017.05.18-13.54.45:125][751]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.54.45:125][751]LogMemory: Process Physical Memory: 2444.00 MB used, 3300.04 MB peak
+[2017.05.18-13.54.45:125][751]LogMemory: Process Virtual Memory: 4824.12 MB used, 5022.10 MB peak
+[2017.05.18-13.54.45:125][751]LogMemory: Physical Memory: 7289.87 MB used,  9029.66 MB free, 16319.53 MB total
+[2017.05.18-13.54.45:125][751]LogMemory: Virtual Memory: 5832.97 MB used,  9029.66 MB free, 134217728.00 MB total
+[2017.05.18-13.54.45:125][751]LogMemory: 
+[2017.05.18-13.54.45:125][751]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.54.45:125][751]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.54.45:132][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007480s)
+[2017.05.18-13.54.45:133][751]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.54.45:133][751]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2017.05.18-13.54.45:133][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008429s)
+[2017.05.18-13.54.45:133][751]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.54.45:135][751]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.54.45
+[2017.05.18-13.54.45:135][751]LogWorld: Bringing up level for play took: 0.001104
+[2017.05.18-13.54.45:137][751]LogLoad: Took 0.043899 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-13.54.46:097][850]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.55.08:312][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.55.25:347][542]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.55.25:355][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.55.25:356][542]PIE: New page: PIE session: Map (May 19, 2017, 7:55:25 AM)
+[2017.05.18-13.55.25:356][542]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.55.25:363][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007132s)
+[2017.05.18-13.55.25:363][542]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.55.25:363][542]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.05.18-13.55.25:363][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.007879s)
+[2017.05.18-13.55.25:383][542]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.55.25:395][542]LogInit: FAudioDevice initialized.
+[2017.05.18-13.55.25:424][542]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.55.25:426][542]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.55.25
+[2017.05.18-13.55.25:426][542]LogWorld: Bringing up level for play took: 0.001277
+[2017.05.18-13.55.25:428][542]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.607
+[2017.05.18-13.55.26:355][649]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.55.26:863][710]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-13.55.56:744][618]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.55.57:569][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-13.55.57:590][640]LogSavePackage: Save=16.20ms
+[2017.05.18-13.55.57:590][640]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameMode18733DD84FC508FF298AA198BD2AAE0B.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-13.55.57:593][640]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-13.58.10:172][745]LogLinker: Can't find file '/Game/Enemy/EnemyAIController'
+[2017.05.18-13.58.10:172][745]LogLinker: Can't find file '/Game/Enemy/EnemyAIController'
+[2017.05.18-13.58.10:175][745]LogBlueprint:Warning: [EnemyTargetAI] 'PatrolPoints' variable not found. Base class was probably changed.
+[2017.05.18-13.58.10:175][745]LogBlueprint:Warning: [EnemyTargetAI] 'index' variable not found. Base class was probably changed.
+[2017.05.18-13.58.53:552][171]LogEditorTransaction: Undo Add Node
+[2017.05.18-13.59.01:389][802]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-13.59.02:245][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-13.59.02:258][838]LogSavePackage: Save=11.86ms
+[2017.05.18-13.59.02:258][838]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAIA7E1FC3D4B16992445B3DBB6CF61C012.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-13.59.02:261][838]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-13.59.15:987][696]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-13.59.16:979][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-13.59.16:998][765]LogSavePackage: Save=14.58ms
+[2017.05.18-13.59.16:998][765]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI40134CB0489FA2B0D6819E84ADDCBF32.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-13.59.17:001][765]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-13.59.37:160][366]LogBlueprint:Warning: [EnemyTargetAI] 'PatrolPoints' variable not found. Base class was probably changed.
+[2017.05.18-13.59.53:560][531]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-13.59.53:572][531]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning Could not find a variable named "PatrolPoints" in 'EnemyBP_C'.
+Make sure 'EnemyBP_C' has been compiled for  Get PatrolPoints
+[2017.05.18-13.59.53:573][531]LogBlueprint:Error: [Compiler EnemyTargetAI] Error The property associated with  Patrol Points  could not be found
+[2017.05.18-13.59.53:801][531]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PatrolPoints" in 'EnemyBP_C'.
+Make sure 'EnemyBP_C' has been compiled for  Get PatrolPoints
+[2017.05.18-13.59.53:802][531]BlueprintEditorCompileResults:Error: Error The property associated with  Patrol Points  could not be found
+[2017.05.18-13.59.53:802][531]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6095.22] Compile of EnemyTargetAI failed. 1 Fatal Issue(s) 1 Warning(s) [in 241 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-13.59.54:447][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-13.59.54:467][564]LogSavePackage: Save=17.91ms
+[2017.05.18-13.59.54:467][564]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAIA788E7DA4FA9EC73137F49BA0B18DADB.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-13.59.54:470][564]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.00.18:403][184]LogBlueprint:Warning: [EnemyTargetAI] 'PatrolPoints' variable not found. Base class was probably changed.
+[2017.05.18-14.00.49:752][687]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.00.49:766][687]LogBlueprint:Error: [Compiler EnemyTargetAI] Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.00.49:924][687]BlueprintEditorCompileResults:Error: Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.00.49:925][687]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6151.34] Compile of EnemyTargetAI failed. 1 Fatal Issue(s) 0 Warning(s) [in 172 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-14.00.50:600][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.00.50:620][726]LogSavePackage: Save=18.26ms
+[2017.05.18-14.00.50:620][726]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI0AC87267481DB937CBED4482823D83BA.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.00.50:622][726]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.01.38:606][642]BlueprintLog: New page: Compile EnemyBP_2
+[2017.05.18-14.01.39:724][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.01.39:754][674]LogSavePackage: Save=28.90ms
+[2017.05.18-14.01.39:754][674]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_2491EC62845A8578051E0EEB91FC05499.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.01.39:756][674]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.01.44:081][879]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.01.46:333][ 50]BlueprintLog: New page: Compile EnemyBP_2
+[2017.05.18-14.01.47:843][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.01.47:875][ 52]LogSavePackage: Save=28.05ms
+[2017.05.18-14.01.47:875][ 52]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_2B9C343CF455E256109E16A8A44DD2703.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.01.47:877][ 52]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.02.04:054][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.02.04:082][233]LogSavePackage: Save=26.12ms
+[2017.05.18-14.02.04:082][233]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_2267F1397498C11EFADCBD18933475C42.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.02.04:084][233]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.02.09:376][519]BlueprintLog: New page: Compile EnemyBP_2
+[2017.05.18-14.02.10:458][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.02.10:489][556]LogSavePackage: Save=29.01ms
+[2017.05.18-14.02.10:489][556]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_260250E3B4D600E6E581DC49AB8916570.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.02.10:491][556]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.02.36:700][ 66]LogBlueprint:Warning: [EnemyTargetAI] 'PatrolPoints' variable not found. Base class was probably changed.
+[2017.05.18-14.02.42:646][508]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.02.42:658][508]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning Could not find a variable named "PatrolPoints" in 'EnemyBP_C'.
+Make sure 'EnemyBP_C' has been compiled for  Get PatrolPoints
+[2017.05.18-14.02.42:659][508]LogBlueprint:Error: [Compiler EnemyTargetAI] Error The property associated with  Patrol Points  could not be found
+[2017.05.18-14.02.42:820][508]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PatrolPoints" in 'EnemyBP_C'.
+Make sure 'EnemyBP_C' has been compiled for  Get PatrolPoints
+[2017.05.18-14.02.42:820][508]BlueprintEditorCompileResults:Error: Error The property associated with  Patrol Points  could not be found
+[2017.05.18-14.02.42:820][508]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6264.23] Compile of EnemyTargetAI failed. 1 Fatal Issue(s) 1 Warning(s) [in 174 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-14.03.23:675][353]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.03.23:688][353]LogBlueprint:Error: [Compiler EnemyTargetAI] Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.03.23:856][353]BlueprintEditorCompileResults:Error: Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.03.23:856][353]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6305.27] Compile of EnemyTargetAI failed. 1 Fatal Issue(s) 0 Warning(s) [in 180 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-14.03.24:640][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.03.24:660][400]LogSavePackage: Save=17.65ms
+[2017.05.18-14.03.24:660][400]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI53332B2744DC9674E3A98C96625116EB.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.03.24:662][400]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.04.16:674][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Map' took 0.016
+[2017.05.18-14.04.16:675][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/EnemyTargetAI] ([1] browsable assets)...
+[2017.05.18-14.04.16:676][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/EnemyTargetAI]
+[2017.05.18-14.04.16:676][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/EnemyTargetAI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.04.16:698][766]LogSavePackage: Save=18.20ms
+[2017.05.18-14.04.16:698][766]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI_Auto277B18DAF444CFCB0DF3BA0BA4E20413C.tmp' to 'D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/EnemyTargetAI_Auto2.uasset'
+[2017.05.18-14.04.16:698][766]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/EnemyTargetAI_Auto2.uasset
+[2017.05.18-14.04.16:698][766]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.05.18-14.05.08:669][241]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.05.08:682][241]LogBlueprint:Error: [Compiler EnemyTargetAI] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.18-14.05.08:682][241]LogBlueprint:Error: [Compiler EnemyTargetAI] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.18-14.05.08:917][241]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.18-14.05.08:917][241]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.18-14.05.08:918][241]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6410.33] Compile of EnemyTargetAI failed. 2 Fatal Issue(s) 0 Warning(s) [in 248 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-14.05.09:828][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.05.09:848][277]LogSavePackage: Save=17.22ms
+[2017.05.18-14.05.09:848][277]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI324AE40A4C493B9CD94E3CBF5F66988D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.05.09:850][277]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.05.20:089][556]LogEditorTransaction: Undo Add Node
+[2017.05.18-14.05.21:070][557]LogEditorTransaction: Undo Create Pin Link
+[2017.05.18-14.05.21:095][557]LogEditorTransaction: Undo Move Node
+[2017.05.18-14.05.21:103][557]LogEditorTransaction: Undo Add Node
+[2017.05.18-14.05.21:111][557]LogEditorTransaction: Undo Delete current selection
+[2017.05.18-14.05.21:118][557]LogEditorTransaction: Undo Remove Variable
+[2017.05.18-14.05.22:120][558]LogEditorTransaction: Undo Move Node
+[2017.05.18-14.05.49:034][244]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.05.49:947][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.05.49:968][277]LogSavePackage: Save=19.51ms
+[2017.05.18-14.05.49:969][277]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI6BEA68C84BA0D36037E53E9417611389.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.05.49:971][277]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.07.17:442][425]LogEditorTransaction: Undo Rename Node
+[2017.05.18-14.07.18:529][426]LogEditorTransaction: Undo Change Replication
+[2017.05.18-14.07.18:555][426]LogEditorTransaction: Undo Change Replication
+[2017.05.18-14.07.19:610][427]LogEditorTransaction: Undo Disable Call In Editor 
+[2017.05.18-14.07.19:637][427]LogEditorTransaction: Undo Create Pin Link
+[2017.05.18-14.08.00:754][712]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.08.00:766][712]LogBlueprint:Error: [Compiler EnemyTargetAI] Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.08.00:941][712]BlueprintEditorCompileResults:Error: Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.08.00:941][712]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6582.36] Compile of EnemyTargetAI failed. 1 Fatal Issue(s) 0 Warning(s) [in 187 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-14.08.01:670][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.08.01:693][752]LogSavePackage: Save=20.09ms
+[2017.05.18-14.08.01:693][752]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAID20A14A74C47F406355EE49C6159112D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.08.01:696][752]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.08.02:630][847]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.08.02:643][847]LogBlueprint:Error: [Compiler EnemyTargetAI] Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.08.02:806][847]BlueprintEditorCompileResults:Error: Error Default value '' for  Patrol Points  is invalid: 'Array inputs (like 'Patrol Points') must have an input wired into them (try connecting a MakeArray node).'
+[2017.05.18-14.08.02:807][847]LogBlueprint:Warning: [Compiler EnemyTargetAI] Warning [6584.22] Compile of EnemyTargetAI failed. 1 Fatal Issue(s) 0 Warning(s) [in 177 ms] (/Game/Enemy/EnemyTargetAI.EnemyTargetAI)
+[2017.05.18-14.08.08:443][213]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.08.09:436][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.08.09:458][249]LogSavePackage: Save=19.57ms
+[2017.05.18-14.08.09:458][249]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI422BCE524C7EBB5B070B55B49CCBB58F.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.08.09:460][249]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.09.09:378][382]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Enemy/BTTask_BlueprintBase_New.
+[2017.05.18-14.09.33:931][130]LogMetaData: Removing '/Game/Enemy/GoToNextPatrolPoint.SKEL_GoToNextPatrolPoint_C' ref from Metadata '/Game/Enemy/BTTask_BlueprintBase_New.PackageMetaData'
+[2017.05.18-14.09.33:931][130]LogMetaData: Removing '/Game/Enemy/GoToNextPatrolPoint.GoToNextPatrolPoint_C' ref from Metadata '/Game/Enemy/BTTask_BlueprintBase_New.PackageMetaData'
+[2017.05.18-14.09.33:957][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/GoToNextPatrolPoint" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/GoToNextPatrolPoint.uasset" SILENT=true
+[2017.05.18-14.09.33:961][130]LogSavePackage: Save=2.55ms
+[2017.05.18-14.09.33:961][130]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/GoToNextPatrolPoint6C7A49E64857E155E79636AF306B12E6.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/GoToNextPatrolPoint.uasset'
+[2017.05.18-14.09.33:964][130]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/GoToNextPatrolPoint.uasset
+[2017.05.18-14.09.34:117][134]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/GoToNextPatrolPoint.
+[2017.05.18-14.09.54:759][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/NewBehaviorTree" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/NewBehaviorTree.uasset" SILENT=true
+[2017.05.18-14.09.54:763][618]LogSavePackage: Save=3.51ms
+[2017.05.18-14.09.54:763][618]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/NewBehaviorTree98606A65482E1A9E787828BCC57929A3.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/NewBehaviorTree.uasset'
+[2017.05.18-14.09.54:766][618]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/NewBehaviorTree.uasset
+[2017.05.18-14.10.33:274][788]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/Enemy/EnemyAIController.EnemyAIController_C''
+[2017.05.18-14.10.33:275][788]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Enemy/EnemyAIController.EnemyAIController_C',MemberName="GetPatrolLocation",MemberGuid=F4C0B985483FE7C69C61ED8B85449B75)'
+[2017.05.18-14.10.33:276][788]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Enemy/EnemyAIController.EnemyAIController_C',MemberName="GoNextIndex",MemberGuid=D29490964EC74FA6939169AE70993E1A)'
+[2017.05.18-14.11.12:811][919]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Enemy/EnemyAIController.EnemyAIController_C',MemberName="GetPatrolLocation",MemberGuid=F4C0B985483FE7C69C61ED8B85449B75)'
+[2017.05.18-14.11.12:812][919]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Enemy/EnemyAIController.EnemyAIController_C',MemberName="GoNextIndex",MemberGuid=D29490964EC74FA6939169AE70993E1A)'
+[2017.05.18-14.12.06:313][639]BlueprintLog: New page: Compile GoToNextPatrolPoint
+[2017.05.18-14.12.07:115][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/GoToNextPatrolPoint" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/GoToNextPatrolPoint.uasset" SILENT=true
+[2017.05.18-14.12.07:126][703]LogSavePackage: Save=7.64ms
+[2017.05.18-14.12.07:126][703]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/GoToNextPatrolPoint24A3A15E4DE6AB17EC0DA2BF41ECE5C1.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/GoToNextPatrolPoint.uasset'
+[2017.05.18-14.12.07:129][703]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/GoToNextPatrolPoint.uasset
+[2017.05.18-14.12.09:103][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.12.10:418][ 28]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.12.10:426][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.12.10:427][ 28]PIE: New page: PIE session: Map (May 19, 2017, 8:12:10 AM)
+[2017.05.18-14.12.10:427][ 28]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.12.10:435][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008328s)
+[2017.05.18-14.12.10:436][ 28]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.12.10:436][ 28]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.05.18-14.12.10:436][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009232s)
+[2017.05.18-14.12.10:453][ 28]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.12.10:466][ 28]LogInit: FAudioDevice initialized.
+[2017.05.18-14.12.10:493][ 28]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.12.10:495][ 28]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.12.10
+[2017.05.18-14.12.10:495][ 28]LogWorld: Bringing up level for play took: 0.001236
+[2017.05.18-14.12.10:497][ 28]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.462
+[2017.05.18-14.14.43:894][681]Cmd: EDIT COPY
+[2017.05.18-14.14.44:219][681]Cmd: EDIT PASTE
+[2017.05.18-14.14.48:030][ 31]Cmd: EDIT COPY
+[2017.05.18-14.14.48:276][ 60]Cmd: EDIT PASTE
+[2017.05.18-14.14.50:899][294]Cmd: EDIT COPY
+[2017.05.18-14.14.51:120][320]Cmd: EDIT PASTE
+[2017.05.18-14.14.53:983][581]Cmd: EDIT COPY
+[2017.05.18-14.14.54:304][619]Cmd: EDIT PASTE
+[2017.05.18-14.15.40:707][548]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.15.40:714][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.15.40:714][548]PIE: New page: PIE session: Map (May 19, 2017, 8:15:40 AM)
+[2017.05.18-14.15.40:714][548]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.15.40:723][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008678s)
+[2017.05.18-14.15.40:723][548]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.15.40:723][548]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.05.18-14.15.40:724][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009541s)
+[2017.05.18-14.15.40:745][548]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.15.40:758][548]LogInit: FAudioDevice initialized.
+[2017.05.18-14.15.40:789][548]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.15.40:792][548]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.15.40
+[2017.05.18-14.15.40:792][548]LogWorld: Bringing up level for play took: 0.001879
+[2017.05.18-14.15.40:794][548]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.758
+[2017.05.18-14.15.41:714][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-14.15.42:221][689]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-14.15.42:421][713]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-14.15.42:622][737]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-14.15.42:828][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-14.15.42:828][754]Cmd: restartlevel
+[2017.05.18-14.15.42:835][755]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-14.15.42:835][755]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-14.15.42:856][755]Cmd: MEM
+[2017.05.18-14.15.42:869][755]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.15.42:869][755]LogMemory: Process Physical Memory: 2575.19 MB used, 3300.04 MB peak
+[2017.05.18-14.15.42:869][755]LogMemory: Process Virtual Memory: 5105.11 MB used, 5105.62 MB peak
+[2017.05.18-14.15.42:869][755]LogMemory: Physical Memory: 7673.23 MB used,  8646.30 MB free, 16319.53 MB total
+[2017.05.18-14.15.42:869][755]LogMemory: Virtual Memory: 6082.32 MB used,  8646.30 MB free, 134217728.00 MB total
+[2017.05.18-14.15.42:869][755]LogMemory: 
+[2017.05.18-14.15.42:869][755]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.15.42:869][755]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.15.42:877][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007958s)
+[2017.05.18-14.15.42:878][755]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.15.42:878][755]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.05.18-14.15.42:878][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008679s)
+[2017.05.18-14.15.42:878][755]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.15.42:880][755]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.15.42
+[2017.05.18-14.15.42:881][755]LogWorld: Bringing up level for play took: 0.001810
+[2017.05.18-14.15.42:883][755]LogLoad: Took 0.047442 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-14.15.43:840][826]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property GameUI from function: 'ExecuteUbergraph_HeroBP' from node: Update Hero HP in graph: EventGraph in object: HeroBP with description: Accessed None trying to read property GameUI
+[2017.05.18-14.16.20:463][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.16.20:494][350]LogSavePackage: Save=26.89ms
+[2017.05.18-14.16.20:494][350]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_2452D49574D53FD45222E609AECA42797.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.16.20:495][350]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.16.21:728][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.16.21:757][441]LogSavePackage: Save=26.02ms
+[2017.05.18-14.16.21:757][441]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_2A7B9369B4F0D7E15E6AD40B956C530F9.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.16.21:758][441]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.16.25:940][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Levels/Map_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-14.16.25:989][701]LogSavePackage: Save=45.17ms
+[2017.05.18-14.16.25:989][701]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map_Auto336222E6643ADA102C1D1FD8679B9422D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Levels/Map_Auto3.umap'
+[2017.05.18-14.16.25:990][701]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Levels/Map_Auto3.umap
+[2017.05.18-14.16.25:992][701]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Map' took 0.068
+[2017.05.18-14.16.25:992][701]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.068
+[2017.05.18-14.16.25:994][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BTTask_BlueprintBase_New" FILE="D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/BTTask_BlueprintBase_New_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.16.25:997][701]LogSavePackage: Save=1.29ms
+[2017.05.18-14.16.25:997][701]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/BTTask_BlueprintBase_New_Auto3779A43004F35786D85ECB78F262DE51D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/BTTask_BlueprintBase_New_Auto3.uasset'
+[2017.05.18-14.16.25:998][701]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/BTTask_BlueprintBase_New_Auto3.uasset
+[2017.05.18-14.16.25:998][701]LogFileHelpers: Auto-saving content packages took 0.004
