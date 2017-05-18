@@ -2456,3 +2456,350 @@ Make sure 'EnemyBP_C' has been compiled for  Get PatrolPoints
 [2017.05.18-14.16.25:997][701]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/BTTask_BlueprintBase_New_Auto3779A43004F35786D85ECB78F262DE51D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/BTTask_BlueprintBase_New_Auto3.uasset'
 [2017.05.18-14.16.25:998][701]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/Enemy/BTTask_BlueprintBase_New_Auto3.uasset
 [2017.05.18-14.16.25:998][701]LogFileHelpers: Auto-saving content packages took 0.004
+[2017.05.18-14.17.14:840][781]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.17.17:545][969]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-14.17.17:555][969]LogBlueprint:Error: [Compiler ShooterGameMode] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.05.18-14.17.18:055][969]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.05.18-14.17.18:056][969]LogBlueprint:Warning: [Compiler ShooterGameMode] Warning [7139.47] Compile of ShooterGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 511 ms] (/Game/ShooterGameMode.ShooterGameMode)
+[2017.05.18-14.17.25:773][530]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-14.17.26:713][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-14.17.26:735][566]LogSavePackage: Save=17.86ms
+[2017.05.18-14.17.26:735][566]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameMode692DA13B48346B2B73127EA5B8FAFA8C.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-14.17.26:737][566]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-14.17.28:062][697]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.17.28:072][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.17.28:072][697]PIE: New page: PIE session: Map (May 19, 2017, 8:17:28 AM)
+[2017.05.18-14.17.28:072][697]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.17.28:080][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007803s)
+[2017.05.18-14.17.28:080][697]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.17.28:080][697]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.05.18-14.17.28:081][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008723s)
+[2017.05.18-14.17.28:102][697]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.17.28:116][697]LogInit: FAudioDevice initialized.
+[2017.05.18-14.17.28:145][697]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.17.28:148][697]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.17.28
+[2017.05.18-14.17.28:148][697]LogWorld: Bringing up level for play took: 0.002199
+[2017.05.18-14.17.28:151][697]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.116
+[2017.05.18-14.17.29:068][763]LogBlueprintUserMessages: [HUD_C_6] 0.8
+[2017.05.18-14.17.29:583][825]LogBlueprintUserMessages: [HUD_C_6] 0.6
+[2017.05.18-14.17.29:908][849]LogBlueprintUserMessages: [HUD_C_6] 0.4
+[2017.05.18-14.17.29:992][859]LogBlueprintUserMessages: [HUD_C_6] 0.2
+[2017.05.18-14.17.30:191][883]LogBlueprintUserMessages: [HUD_C_6] 0.0
+[2017.05.18-14.17.30:192][883]Cmd: restartlevel
+[2017.05.18-14.17.30:199][884]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-14.17.30:199][884]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-14.17.30:216][884]Cmd: MEM
+[2017.05.18-14.17.30:231][884]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.17.30:231][884]LogMemory: Process Physical Memory: 2549.08 MB used, 3300.04 MB peak
+[2017.05.18-14.17.30:231][884]LogMemory: Process Virtual Memory: 5014.38 MB used, 5157.21 MB peak
+[2017.05.18-14.17.30:231][884]LogMemory: Physical Memory: 7503.93 MB used,  8815.59 MB free, 16319.53 MB total
+[2017.05.18-14.17.30:231][884]LogMemory: Virtual Memory: 6002.50 MB used,  8815.59 MB free, 134217728.00 MB total
+[2017.05.18-14.17.30:231][884]LogMemory: 
+[2017.05.18-14.17.30:231][884]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.17.30:231][884]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.17.30:239][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007953s)
+[2017.05.18-14.17.30:239][884]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.17.30:239][884]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.05.18-14.17.30:239][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008740s)
+[2017.05.18-14.17.30:239][884]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.17.30:242][884]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.17.30
+[2017.05.18-14.17.30:242][884]LogWorld: Bringing up level for play took: 0.001870
+[2017.05.18-14.17.30:245][884]LogLoad: Took 0.046043 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-14.17.31:224][944]LogBlueprintUserMessages: [HUD_C_7] 0.8
+[2017.05.18-14.17.34:772][992]LogPlayLevel: Launcher Device ID: WindowsNoEditor@DESKTOP-64OHN5C
+[2017.05.18-14.17.34:796][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.17.43:649][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.17.43:710][495]LogSavePackage: Save=43.97ms
+[2017.05.18-14.17.43:710][495]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map834B2D0D415ABD4DF6B123A3CB33AFFD.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-14.17.43:713][495]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-14.18.11:066][165]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.18.11:079][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.18.11:079][165]PIE: New page: PIE session: Map (May 19, 2017, 8:18:11 AM)
+[2017.05.18-14.18.11:079][165]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.18.11:088][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008107s)
+[2017.05.18-14.18.11:088][165]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.18.11:088][165]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.05.18-14.18.11:088][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008891s)
+[2017.05.18-14.18.11:111][165]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.18.11:123][165]LogInit: FAudioDevice initialized.
+[2017.05.18-14.18.11:153][165]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.18.11:155][165]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.18.11
+[2017.05.18-14.18.11:156][165]LogWorld: Bringing up level for play took: 0.001672
+[2017.05.18-14.18.11:158][165]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.877
+[2017.05.18-14.18.12:072][221]LogBlueprintUserMessages: [HUD_C_8] 0.8
+[2017.05.18-14.18.12:599][277]LogBlueprintUserMessages: [HUD_C_8] 0.6
+[2017.05.18-14.18.12:800][301]LogBlueprintUserMessages: [HUD_C_8] 0.4
+[2017.05.18-14.18.13:000][325]LogBlueprintUserMessages: [HUD_C_8] 0.2
+[2017.05.18-14.18.13:200][349]LogBlueprintUserMessages: [HUD_C_8] 0.0
+[2017.05.18-14.18.13:200][349]Cmd: restartlevel
+[2017.05.18-14.18.13:208][350]LogNet: Browse: /Game/Levels/Map?restart
+[2017.05.18-14.18.13:208][350]LogLoad: LoadMap: /Game/Levels/Map
+[2017.05.18-14.18.13:225][350]Cmd: MEM
+[2017.05.18-14.18.13:240][350]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.18.13:240][350]LogMemory: Process Physical Memory: 2553.29 MB used, 3300.04 MB peak
+[2017.05.18-14.18.13:240][350]LogMemory: Process Virtual Memory: 5009.14 MB used, 5157.21 MB peak
+[2017.05.18-14.18.13:240][350]LogMemory: Physical Memory: 7515.95 MB used,  8803.57 MB free, 16319.53 MB total
+[2017.05.18-14.18.13:240][350]LogMemory: Virtual Memory: 6002.26 MB used,  8803.57 MB free, 134217728.00 MB total
+[2017.05.18-14.18.13:240][350]LogMemory: 
+[2017.05.18-14.18.13:240][350]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.18.13:240][350]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.18.13:248][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008243s)
+[2017.05.18-14.18.13:249][350]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.18.13:249][350]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.05.18-14.18.13:249][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009032s)
+[2017.05.18-14.18.13:249][350]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.18.13:252][350]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.18.13
+[2017.05.18-14.18.13:252][350]LogWorld: Bringing up level for play took: 0.001765
+[2017.05.18-14.18.13:254][350]LogLoad: Took 0.046551 seconds to LoadMap(/Game/Levels/UEDPIE_0_Map)
+[2017.05.18-14.18.41:799][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.18.41:913][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.18.45:059][970]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-14.18.46:183][103]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.18.46:192][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.18.46:192][103]PIE: New page: PIE session: Map (May 19, 2017, 8:18:46 AM)
+[2017.05.18-14.18.46:192][103]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.18.46:200][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007999s)
+[2017.05.18-14.18.46:201][103]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.18.46:201][103]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.05.18-14.18.46:201][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008750s)
+[2017.05.18-14.18.46:222][103]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.18.46:234][103]LogInit: FAudioDevice initialized.
+[2017.05.18-14.18.46:266][103]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.18.46:268][103]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.18.46
+[2017.05.18-14.18.46:268][103]LogWorld: Bringing up level for play took: 0.001728
+[2017.05.18-14.18.46:271][103]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.235
+[2017.05.18-14.18.48:707][361]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1.131 Y=-3.971 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.49:190][419]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1.131 Y=-3.971 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.49:690][479]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1.131 Y=-3.971 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.50:190][539]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-7.319 Y=30.745 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.51:190][659]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1.574 Y=-2.485 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.51:689][715]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1.574 Y=-2.485 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.52:188][775]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1.574 Y=-2.485 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.53:188][895]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=16.216 Y=-47.959 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.18.53:800][952]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=16.216 Y=-47.959 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.18.54:191][999]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8.034 Y=22.170 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.55:187][104]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-11.797 Y=7.073 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.56:188][209]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=25.513 Y=-2.720 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.56:688][269]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=41.350 Y=-7.515 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.59:188][510]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-24.418 Y=-22.552 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.18.59:688][570]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-23.907 Y=-10.778 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.19.00:192][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-23.907 Y=-10.778 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.19.00:692][684]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-23.907 Y=-10.778 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.19.01:186][723]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-21.692 Y=51.021 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.19.02:191][829]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-21.406 Y=30.733 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.19.33:433][324]LogRenderer: Reallocating scene render targets to support 1208x716 NumSamples 1 (Frame:535223).
+[2017.05.18-14.19.33:478][325]LogRenderer: Reallocating scene render targets to support 1208x764 NumSamples 1 (Frame:535224).
+[2017.05.18-14.19.33:519][326]LogRenderer: Reallocating scene render targets to support 1208x768 NumSamples 1 (Frame:535225).
+[2017.05.18-14.19.33:558][327]LogRenderer: Reallocating scene render targets to support 1208x772 NumSamples 1 (Frame:535226).
+[2017.05.18-14.19.33:689][335]LogRenderer: Reallocating scene render targets to support 1208x788 NumSamples 1 (Frame:535228).
+[2017.05.18-14.19.33:727][336]LogRenderer: Reallocating scene render targets to support 1208x808 NumSamples 1 (Frame:535229).
+[2017.05.18-14.19.33:765][337]LogRenderer: Reallocating scene render targets to support 1208x828 NumSamples 1 (Frame:535230).
+[2017.05.18-14.19.33:805][338]LogRenderer: Reallocating scene render targets to support 1208x844 NumSamples 1 (Frame:535231).
+[2017.05.18-14.19.33:845][339]LogRenderer: Reallocating scene render targets to support 1208x852 NumSamples 1 (Frame:535232).
+[2017.05.18-14.19.33:885][340]LogRenderer: Reallocating scene render targets to support 1208x856 NumSamples 1 (Frame:535233).
+[2017.05.18-14.19.33:968][347]LogRenderer: Reallocating scene render targets to support 1208x860 NumSamples 1 (Frame:535234).
+[2017.05.18-14.19.34:008][348]LogRenderer: Reallocating scene render targets to support 1208x864 NumSamples 1 (Frame:535235).
+[2017.05.18-14.19.58:680][563]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.19.58:687][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.19.58:688][563]PIE: New page: PIE session: Map (May 19, 2017, 8:19:58 AM)
+[2017.05.18-14.19.58:688][563]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.19.58:697][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009059s)
+[2017.05.18-14.19.58:698][563]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.19.58:698][563]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.05.18-14.19.58:698][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009851s)
+[2017.05.18-14.19.58:717][563]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.19.58:730][563]LogInit: FAudioDevice initialized.
+[2017.05.18-14.19.58:758][563]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.19.58:761][563]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.19.58
+[2017.05.18-14.19.58:761][563]LogWorld: Bringing up level for play took: 0.001722
+[2017.05.18-14.19.58:763][563]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.728
+[2017.05.18-14.20.01:187][822]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-19.287 Y=-8.035 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.01:684][878]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-5.203 Y=-23.051 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.02:185][938]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-7.186 Y=61.306 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.03:185][ 58]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-30.950 Y=31.996 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.33:946][ 37]BlueprintLog: New page: Compile EnemyBP_2
+[2017.05.18-14.20.42:993][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.20.43:014][241]LogSavePackage: Save=18.12ms
+[2017.05.18-14.20.43:014][241]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_24C8EB64944E9AD900D2A90B84B209AAF.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.20.43:017][241]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.20.44:640][384]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.20.44:647][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.20.44:648][384]PIE: New page: PIE session: Map (May 19, 2017, 8:20:44 AM)
+[2017.05.18-14.20.44:648][384]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.20.44:656][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008832s)
+[2017.05.18-14.20.44:657][384]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.20.44:657][384]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.05.18-14.20.44:657][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009599s)
+[2017.05.18-14.20.44:676][384]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.20.44:688][384]LogInit: FAudioDevice initialized.
+[2017.05.18-14.20.44:719][384]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.20.44:721][384]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.20.44
+[2017.05.18-14.20.44:721][384]LogWorld: Bringing up level for play took: 0.001665
+[2017.05.18-14.20.44:723][384]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.688
+[2017.05.18-14.20.47:216][603]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-0.437 Y=-65.802 Z=0.001] for [EnemyBP_C]
+[2017.05.18-14.20.47:674][658]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=21.131 Y=-16.798 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.48:174][718]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-4.339 Y=-2.351 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.20.49:173][835]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-57.583 Y=9.663 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.50:672][ 12]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-0.438 Y=38.194 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.51:178][ 70]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-9.918 Y=39.785 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.52:177][187]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-5.847 Y=19.265 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.53:175][304]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8.010 Y=-26.395 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.53:675][364]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8.010 Y=-26.395 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.54:175][424]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8.010 Y=-26.395 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.54:675][484]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=8.010 Y=-26.395 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.55:175][544]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-60.912 Y=11.119 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.20.56:183][662]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-13.449 Y=45.034 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.57:174][781]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-7.482 Y=25.056 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.20.57:674][841]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=22.704 Y=-8.973 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.20.58:174][901]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=22.156 Y=-9.507 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.20.58:674][961]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=22.156 Y=-9.507 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.20.59:674][ 81]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-47.744 Y=12.985 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.21.01:172][260]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-7.986 Y=-31.461 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.21.01:672][320]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-25.738 Y=-26.633 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.21.02:673][440]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2.676 Y=-19.908 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.21.03:673][560]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=4.570 Y=32.955 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.22.16:277][236]BlueprintLog: New page: Compile EnemySpawnerBP
+[2017.05.18-14.22.17:043][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemySpawnerBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset" SILENT=true
+[2017.05.18-14.22.17:062][264]LogSavePackage: Save=16.00ms
+[2017.05.18-14.22.17:062][264]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemySpawnerBP740546AC4423B513735162B885814D70.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset'
+[2017.05.18-14.22.17:065][264]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset
+[2017.05.18-14.22.21:857][559]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.22.21:865][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.22.21:865][559]PIE: New page: PIE session: Map (May 19, 2017, 8:22:21 AM)
+[2017.05.18-14.22.21:865][559]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.22.21:879][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013790s)
+[2017.05.18-14.22.21:879][559]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.22.21:880][559]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.05.18-14.22.21:880][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.014590s)
+[2017.05.18-14.22.21:900][559]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.22.21:914][559]LogInit: FAudioDevice initialized.
+[2017.05.18-14.22.21:942][559]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.22.21:945][559]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.22.21
+[2017.05.18-14.22.21:945][559]LogWorld: Bringing up level for play took: 0.001633
+[2017.05.18-14.22.21:948][559]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.088
+[2017.05.18-14.22.24:449][785]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-36.521 Y=57.306 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.22.24:865][835]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-6.713 Y=5.159 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.22.25:866][955]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-14.205 Y=-19.404 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.22.26:860][ 72]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=6.627 Y=23.133 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.22.27:377][132]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=10.747 Y=37.059 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.22.53:041][794]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.22.53:049][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.22.53:049][794]PIE: New page: PIE session: Map (May 19, 2017, 8:22:53 AM)
+[2017.05.18-14.22.53:049][794]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.22.53:056][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007212s)
+[2017.05.18-14.22.53:057][794]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.22.53:057][794]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.05.18-14.22.53:057][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.007990s)
+[2017.05.18-14.22.53:078][794]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.22.53:091][794]LogInit: FAudioDevice initialized.
+[2017.05.18-14.22.53:121][794]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.22.53:123][794]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.22.53
+[2017.05.18-14.22.53:123][794]LogWorld: Bringing up level for play took: 0.001676
+[2017.05.18-14.22.53:125][794]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.91
+[2017.05.18-14.22.56:045][ 66]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-10.222 Y=0.036 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.22.57:044][183]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-12.975 Y=-6.412 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.22.57:544][243]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-20.221 Y=-1.718 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.22.58:544][363]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=17.692 Y=-31.056 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.23.18:296][766]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.23.18:305][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.23.18:305][766]PIE: New page: PIE session: Map (May 19, 2017, 8:23:18 AM)
+[2017.05.18-14.23.18:305][766]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.23.18:314][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008109s)
+[2017.05.18-14.23.18:314][766]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.23.18:314][766]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.05.18-14.23.18:314][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008939s)
+[2017.05.18-14.23.18:337][766]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.23.18:354][766]LogInit: FAudioDevice initialized.
+[2017.05.18-14.23.18:383][766]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.23.18:385][766]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.23.18
+[2017.05.18-14.23.18:386][766]LogWorld: Bringing up level for play took: 0.001779
+[2017.05.18-14.23.18:388][766]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.353
+[2017.05.18-14.23.22:526][210]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2.399 Y=-55.034 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.23.23:026][270]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2.399 Y=-55.034 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.23.23:525][330]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-0.687 Y=-59.192 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.23.24:523][447]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-19.321 Y=-25.205 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.23.25:529][565]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=26.069 Y=3.196 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.23.44:050][463]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=11.172 Y=15.503 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.24.51:757][929]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.24.51:765][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.24.51:766][929]PIE: New page: PIE session: Map (May 19, 2017, 8:24:51 AM)
+[2017.05.18-14.24.51:766][929]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.24.51:773][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007390s)
+[2017.05.18-14.24.51:774][929]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.24.51:774][929]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2017.05.18-14.24.51:774][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008275s)
+[2017.05.18-14.24.51:796][929]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.24.51:808][929]LogInit: FAudioDevice initialized.
+[2017.05.18-14.24.51:839][929]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.24.51:842][929]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.24.51
+[2017.05.18-14.24.51:842][929]LogWorld: Bringing up level for play took: 0.001546
+[2017.05.18-14.24.51:844][929]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.191
+[2017.05.18-14.24.54:285][160]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-15.215 Y=-7.664 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.24.54:783][214]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2.507 Y=6.823 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.24.55:283][274]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-6.571 Y=60.858 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.24.56:283][394]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-24.679 Y=35.519 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.24.57:282][511]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-22.829 Y=-1.594 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.25.07:180][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.26.18:363][684]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.26.19:630][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.26.19:653][686]LogSavePackage: Save=19.32ms
+[2017.05.18-14.26.19:653][686]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI991EAAD4473383F151E005883294EE9A.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.26.19:655][686]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.26.21:446][835]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.26.21:456][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.26.21:456][835]PIE: New page: PIE session: Map (May 19, 2017, 8:26:21 AM)
+[2017.05.18-14.26.21:456][835]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.26.21:464][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007474s)
+[2017.05.18-14.26.21:464][835]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.26.21:464][835]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.05.18-14.26.21:464][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008270s)
+[2017.05.18-14.26.21:485][835]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.26.21:498][835]LogInit: FAudioDevice initialized.
+[2017.05.18-14.26.21:528][835]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.26.21:530][835]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.26.21
+[2017.05.18-14.26.21:531][835]LogWorld: Bringing up level for play took: 0.001839
+[2017.05.18-14.26.21:536][835]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.499
+[2017.05.18-14.26.23:954][116]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-17.627 Y=12.484 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.26.24:454][176]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-4.553 Y=24.533 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.26.25:454][296]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2.055 Y=-9.521 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.26.26:456][416]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-7.196 Y=-59.215 Z=0.000] for [EnemyBP_C]
+[2017.05.18-14.26.26:956][475]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-6.157 Y=-60.791 Z=-0.000] for [EnemyBP_C]
+[2017.05.18-14.26.54:614][497]BlueprintLog: New page: Compile EnemySpawnerBP
+[2017.05.18-14.26.54:625][497]LogBlueprint:Warning: [Compiler EnemySpawnerBP] Warning Could not find a variable named "SpawnVolume" in 'EnemySpawnerBP_C'.
+Make sure 'EnemySpawnerBP_C' has been compiled for  Get SpawnVolume
+[2017.05.18-14.26.54:625][497]LogBlueprint:Error: [Compiler EnemySpawnerBP] Error The property associated with  Spawn Volume  could not be found
+[2017.05.18-14.26.54:792][497]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "SpawnVolume" in 'EnemySpawnerBP_C'.
+Make sure 'EnemySpawnerBP_C' has been compiled for  Get SpawnVolume
+[2017.05.18-14.26.54:792][497]BlueprintEditorCompileResults:Error: Error The property associated with  Spawn Volume  could not be found
+[2017.05.18-14.26.54:792][497]LogBlueprint:Warning: [Compiler EnemySpawnerBP] Warning [7716.21] Compile of EnemySpawnerBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 178 ms] (/Game/Enemy/EnemySpawnerBP.EnemySpawnerBP)
+[2017.05.18-14.26.55:809][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemySpawnerBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset" SILENT=true
+[2017.05.18-14.26.55:828][499]LogSavePackage: Save=16.89ms
+[2017.05.18-14.26.55:828][499]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemySpawnerBP2625EB99490241AFDEB176AC39562A7F.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset'
+[2017.05.18-14.26.55:831][499]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset
+[2017.05.18-14.27.14:516][461]BlueprintLog: New page: Compile EnemySpawnerBP
+[2017.05.18-14.27.15:457][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemySpawnerBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset" SILENT=true
+[2017.05.18-14.27.15:474][480]LogSavePackage: Save=15.54ms
+[2017.05.18-14.27.15:474][480]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemySpawnerBP7CBDD3184C77A5A788074DB5885548CA.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset'
+[2017.05.18-14.27.15:477][480]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset
+[2017.05.18-14.27.22:883][224]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.27.22:891][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.27.22:891][224]PIE: New page: PIE session: Map (May 19, 2017, 8:27:22 AM)
+[2017.05.18-14.27.22:891][224]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.27.22:899][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007667s)
+[2017.05.18-14.27.22:899][224]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.27.22:899][224]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.05.18-14.27.22:899][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008471s)
+[2017.05.18-14.27.22:921][224]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.27.22:933][224]LogInit: FAudioDevice initialized.
+[2017.05.18-14.27.22:963][224]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.27.22:966][224]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.27.22
+[2017.05.18-14.27.22:967][224]LogWorld: Bringing up level for play took: 0.001977
+[2017.05.18-14.27.22:969][224]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.934
+[2017.05.18-14.27.37:608][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.27.37:710][877]LogSavePackage: Save=86.96ms
+[2017.05.18-14.27.37:711][877]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map09C7C5DC4A3F7FFB061AEFA8AB1168B0.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-14.27.37:713][877]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-14.27.49:460][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.27.49:527][ 72]LogSavePackage: Save=46.83ms
+[2017.05.18-14.27.49:527][ 72]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map6A58E78E40D64BDBD6FDC6BA536A7E86.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-14.27.49:529][ 72]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
