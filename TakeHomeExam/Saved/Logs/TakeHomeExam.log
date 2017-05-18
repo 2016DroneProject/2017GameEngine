@@ -760,3 +760,332 @@ LogInit: Object subsystem initialized
 [2017.05.18-12.45.57:464][503]LogSavePackage: Save=23.58ms
 [2017.05.18-12.45.57:464][503]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/testlevel2BEC50E6487D67BAFD0D18BD3D5C75DD.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap'
 [2017.05.18-12.45.57:466][503]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap
+[2017.05.18-12.46.33:779][951]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.18-12.46.33:780][951]LogTemp:Display: Added material ShaderMap 0x000001B5004EAB00 with Material 0x000001B52911A500 to ShaderMapsBeingCompiled
+[2017.05.18-12.46.33:784][951]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x000001B5004EAB00
+[2017.05.18-12.46.33:814][952]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.05.18-12.46.33:814][952]LogTemp:Display: Added material ShaderMap 0x000001B526D2F580 with Material 0x000001B4CB29E380 to ShaderMapsBeingCompiled
+[2017.05.18-12.46.33:819][952]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x000001B526D2F580
+[2017.05.18-12.46.35:720][177]LogTemp:Display: Finished compile of shader map 0x000001B5004EAB00
+[2017.05.18-12.46.35:720][177]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x000001B5004EAB00, marking material Material_0 as finished
+[2017.05.18-12.46.35:720][177]LogTemp:Display: Marking material as finished 0x000001B52911A500
+[2017.05.18-12.46.35:769][183]LogTemp:Display: Finished compile of shader map 0x000001B526D2F580
+[2017.05.18-12.46.35:769][183]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x000001B526D2F580, marking material Material_1 as finished
+[2017.05.18-12.46.35:769][183]LogTemp:Display: Marking material as finished 0x000001B4CB29E380
+[2017.05.18-12.46.39:750][588]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.05.18-12.46.39:752][588]LogTemp:Display: Added material ShaderMap 0x000001B4CE2E3900 with Material 0x000001B559478700 to ShaderMapsBeingCompiled
+[2017.05.18-12.46.39:847][588]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x000001B4CE2E3900
+[2017.05.18-12.46.52:256][255]LogTemp:Display: Finished compile of shader map 0x000001B4CE2E3900
+[2017.05.18-12.46.52:256][255]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x000001B4CE2E3900, marking material EnemyMaterial as finished
+[2017.05.18-12.46.52:256][255]LogTemp:Display: Marking material as finished 0x000001B559478700
+[2017.05.18-12.46.52:309][255]LogSavePackage: Save=20.09ms
+[2017.05.18-12.46.52:309][255]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyMaterialFFB53AA846860403F755AE92DF027B36.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/AnimationAssets/UE4_Mannequin/Materials/EnemyMaterial.uasset'
+[2017.05.18-12.46.52:311][255]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/AnimationAssets/UE4_Mannequin/Materials/EnemyMaterial.uasset
+[2017.05.18-12.46.56:621][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyMaterial" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyMaterial.uasset" SILENT=true
+[2017.05.18-12.46.56:643][595]LogSavePackage: Save=19.81ms
+[2017.05.18-12.46.56:643][595]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyMaterialA550686F4871C536D688129C1D50E3F1.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyMaterial.uasset'
+[2017.05.18-12.46.56:644][595]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyMaterial.uasset
+[2017.05.18-12.47.18:637][495]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-12.47.19:521][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-12.47.19:543][531]LogSavePackage: Save=20.97ms
+[2017.05.18-12.47.19:543][531]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP7A3301EE445D340FB1BFD182D0AA0877.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-12.47.19:545][531]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-12.47.21:167][720]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.21:169][720]LogTemp:Display: Added material ShaderMap 0x000001B4827B2780 with Material 0x000001B53C0F8B80 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.21:223][720]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B4827B2780
+[2017.05.18-12.47.21:350][720]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.21:353][720]LogTemp:Display: Added material ShaderMap 0x000001B585BA4100 with Material 0x000001B53C0F8B80 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.21:410][720]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B585BA4100
+[2017.05.18-12.47.21:410][720]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-12.47.21:436][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.18-12.47.21:436][720]LogTemp:Display: Added material ShaderMap 0x000001B58DB13580 with Material 0x000001B58DB37A00 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.21:438][720]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x000001B58DB13580
+[2017.05.18-12.47.21:439][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.05.18-12.47.21:440][720]LogTemp:Display: Added material ShaderMap 0x000001B58DB11D00 with Material 0x000001B58DB36500 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.21:442][720]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x000001B58DB11D00
+[2017.05.18-12.47.21:443][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.05.18-12.47.21:444][720]LogTemp:Display: Added material ShaderMap 0x000001B58DB10800 with Material 0x000001B58DB35900 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.21:446][720]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, GameThreadShaderMap 0x000001B58DB10800
+[2017.05.18-12.47.21:447][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.05.18-12.47.21:448][720]LogTemp:Display: Added material ShaderMap 0x000001B53D57E780 with Material 0x000001B58DB35000 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.21:450][720]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, GameThreadShaderMap 0x000001B53D57E780
+[2017.05.18-12.47.25:967][ 35]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.25:969][ 35]LogTemp:Display: Added material ShaderMap 0x000001B58FF99280 with Material 0x000001B53C0F8B80 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.26:030][ 35]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B58FF99280
+[2017.05.18-12.47.26:030][ 35]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-12.47.26:035][ 35]LogTemp:Display: Removed shader map 0x000001B58DB11D00 from material 0x000001B58DB36500
+[2017.05.18-12.47.26:058][ 35]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.05.18-12.47.26:058][ 35]LogTemp:Display: Added material ShaderMap 0x000001B59604AE80 with Material 0x000001B596357A00 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.26:061][ 35]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x000001B59604AE80
+[2017.05.18-12.47.26:273][ 52]LogTemp:Display: Finished compile of shader map 0x000001B585BA4100
+[2017.05.18-12.47.26:273][ 52]LogTemp:Display: Shader map EnemyMaterial complete, GameThreadShaderMap 0x000001B585BA4100, marking material EnemyMaterial as finished
+[2017.05.18-12.47.26:273][ 52]LogTemp:Display: Marking material as finished 0x000001B53C0F8B80
+[2017.05.18-12.47.26:729][ 91]LogTemp:Display: Finished compile of shader map 0x000001B58DB13580
+[2017.05.18-12.47.26:729][ 91]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x000001B58DB13580, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.05.18-12.47.26:729][ 91]LogTemp:Display: Marking material as finished 0x000001B58DB37A00
+[2017.05.18-12.47.26:747][ 92]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.26:750][ 92]LogTemp:Display: Added material ShaderMap 0x000001B595FE6780 with Material 0x000001B53C0F8B80 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.26:806][ 92]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B595FE6780
+[2017.05.18-12.47.26:806][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-12.47.26:810][ 92]LogTemp:Display: Removed shader map 0x000001B59604AE80 from material 0x000001B596357A00
+[2017.05.18-12.47.26:833][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.05.18-12.47.26:834][ 92]LogTemp:Display: Added material ShaderMap 0x000001B59749AE80 with Material 0x000001B59676FA00 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.26:836][ 92]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x000001B59749AE80
+[2017.05.18-12.47.26:838][ 92]LogTemp:Display: Finished compile of shader map 0x000001B58DB10800
+[2017.05.18-12.47.26:838][ 92]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 complete, GameThreadShaderMap 0x000001B58DB10800, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 as finished
+[2017.05.18-12.47.26:838][ 92]LogTemp:Display: Marking material as finished 0x000001B58DB35900
+[2017.05.18-12.47.27:305][131]LogTemp:Display: Finished compile of shader map 0x000001B59604AE80
+[2017.05.18-12.47.27:305][131]LogTemp:Display: Finished compile of shader map 0x000001B53D57E780
+[2017.05.18-12.47.27:305][131]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 complete, GameThreadShaderMap 0x000001B53D57E780, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 as finished
+[2017.05.18-12.47.27:305][131]LogTemp:Display: Marking material as finished 0x000001B58DB35000
+[2017.05.18-12.47.29:254][312]LogMaterialEditor: Saving and Compiling material EnemyMaterial
+[2017.05.18-12.47.29:932][312]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.29:934][312]LogTemp:Display: Added material ShaderMap 0x000001B596048800 with Material 0x000001B53C0F8B80 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.30:013][312]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B596048800
+[2017.05.18-12.47.30:013][312]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-12.47.30:041][312]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.30:044][312]LogTemp:Display: Added material ShaderMap 0x000001B5846DA080 with Material 0x000001B559478280 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.30:129][312]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B5846DA080
+[2017.05.18-12.47.30:132][312]LogMaterial: Missing cached shader map for material EnemyMaterial, compiling. 
+[2017.05.18-12.47.30:134][312]LogTemp:Display: Added material ShaderMap 0x000001B5988B1D00 with Material 0x000001B559478280 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.30:208][312]LogTemp:Display: Kicking off shader compilation for EnemyMaterial, GameThreadShaderMap 0x000001B5988B1D00
+[2017.05.18-12.47.30:209][312]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-12.47.30:236][312]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EnemyMaterial, compiling. 
+[2017.05.18-12.47.30:238][312]LogTemp:Display: Added material ShaderMap 0x000001B599898800 with Material 0x000001B599847700 to ShaderMapsBeingCompiled
+[2017.05.18-12.47.40:498][312]LogTemp:Display: Finished compile of shader map 0x000001B599898800
+[2017.05.18-12.47.40:498][312]LogTemp:Display: Shader map FDebugViewModeMaterialProxy EnemyMaterial complete, GameThreadShaderMap 0x000001B599898800, marking material FDebugViewModeMaterialProxy EnemyMaterial as finished
+[2017.05.18-12.47.40:498][312]LogTemp:Display: Marking material as finished 0x000001B599847700
+[2017.05.18-12.47.40:504][312]TextureStreamingBuild:Display: Compiling optional shaders took 10.274 seconds.
+[2017.05.18-12.47.48:720][312]LogTemp:Display: Finished compile of shader map 0x000001B5988B1D00
+[2017.05.18-12.47.48:720][312]LogTemp:Display: Shader map EnemyMaterial complete, GameThreadShaderMap 0x000001B5988B1D00, marking material EnemyMaterial as finished
+[2017.05.18-12.47.48:720][312]LogTemp:Display: Marking material as finished 0x000001B559478280
+[2017.05.18-12.47.48:730][312]LogTemp:Display: Finished compile of shader map 0x000001B59749AE80
+[2017.05.18-12.47.48:730][312]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x000001B59749AE80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2017.05.18-12.47.48:730][312]LogTemp:Display: Marking material as finished 0x000001B59676FA00
+[2017.05.18-12.47.48:734][312]LogTemp:Display: Finished compile of shader map 0x000001B596048800
+[2017.05.18-12.47.48:734][312]LogTemp:Display: Shader map EnemyMaterial complete, GameThreadShaderMap 0x000001B596048800, marking material EnemyMaterial as finished
+[2017.05.18-12.47.48:734][312]LogTemp:Display: Marking material as finished 0x000001B53C0F8B80
+[2017.05.18-12.47.48:739][312]LogTemp:Display: Finished compile of shader map 0x000001B595FE6780
+[2017.05.18-12.47.48:739][312]LogTemp:Display: Shader map EnemyMaterial complete, GameThreadShaderMap 0x000001B595FE6780, marking material EnemyMaterial as finished
+[2017.05.18-12.47.48:739][312]LogTemp:Display: Marking material as finished 0x000001B53C0F8B80
+[2017.05.18-12.47.48:792][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyMaterial" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyMaterial.uasset" SILENT=true
+[2017.05.18-12.47.48:816][312]LogSavePackage: Save=21.21ms
+[2017.05.18-12.47.48:816][312]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyMaterialEB0EBE1E4073189B8C4B29893DB75185.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyMaterial.uasset'
+[2017.05.18-12.47.48:819][312]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyMaterial.uasset
+[2017.05.18-12.47.48:823][312]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 97 instructions
+[2017.05.18-12.47.48:824][312]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.18-12.47.48:824][312]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.05.18-12.47.50:755][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-12.47.50:832][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-12.47.50:897][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-12.47.52:358][647]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-12.47.52:373][647]LogSavePackage: Save=6.31ms
+[2017.05.18-12.47.52:374][647]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/UE4_Mannequin_Skeleton5CCB872644F1FAC387883B891343FDED.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.05.18-12.47.52:379][647]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.05.18-12.47.52:387][647]LogSavePackage: Save=2.53ms
+[2017.05.18-12.47.52:387][647]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/M_UE4Man_Body_2D055E0D146B6F57BC311F9B99E277AA7.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body_2.uasset'
+[2017.05.18-12.47.52:390][647]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body_2.uasset
+[2017.05.18-12.48.39:426][126]BlueprintLog: New page: Compile BulletBP
+[2017.05.18-12.48.40:160][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-12.48.40:181][158]LogSavePackage: Save=18.42ms
+[2017.05.18-12.48.40:181][158]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/BulletBPB5A9470547829A478A7253AA886DB0C2.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset'
+[2017.05.18-12.48.40:183][158]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset
+[2017.05.18-12.50.41:821][117]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-12.50.42:683][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-12.50.42:714][177]LogSavePackage: Save=26.69ms
+[2017.05.18-12.50.42:714][177]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP4127F98241B4702524341E9FE66AF449.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-12.50.42:716][177]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-12.51.21:959][467]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-12.51.22:816][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-12.51.22:846][539]LogSavePackage: Save=27.75ms
+[2017.05.18-12.51.22:846][539]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBPA1812EB34AEE9E5CD336FC8D04108724.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-12.51.22:849][539]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-12.52.10:774][212]BlueprintLog: New page: Compile DamagedInterface
+[2017.05.18-12.52.11:492][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/DamagedInterface" FILE="D:/2017GameEngine/TakeHomeExam/Content/Interface/DamagedInterface.uasset" SILENT=true
+[2017.05.18-12.52.11:497][283]LogSavePackage: Save=3.62ms
+[2017.05.18-12.52.11:497][283]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/DamagedInterfaceAD2842324499766C0F1B97B276CDD949.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Interface/DamagedInterface.uasset'
+[2017.05.18-12.52.11:499][283]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Interface/DamagedInterface.uasset
+[2017.05.18-12.53.52:251][131]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-12.53.53:808][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-12.53.53:838][263]LogSavePackage: Save=28.34ms
+[2017.05.18-12.53.53:838][263]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBPCCA99CA4460DA0229930B8A0A1B18637.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-12.53.53:841][263]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-12.55.02:838][344]BlueprintLog: New page: Compile DamagedInterface
+[2017.05.18-12.55.03:382][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/DamagedInterface" FILE="D:/2017GameEngine/TakeHomeExam/Content/Interface/DamagedInterface.uasset" SILENT=true
+[2017.05.18-12.55.03:388][393]LogSavePackage: Save=3.15ms
+[2017.05.18-12.55.03:388][393]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/DamagedInterfaceB1E426D74888E7722584E2B9344414F9.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Interface/DamagedInterface.uasset'
+[2017.05.18-12.55.03:390][393]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Interface/DamagedInterface.uasset
+[2017.05.18-12.55.07:799][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-12.55.07:821][901]LogSavePackage: Save=20.39ms
+[2017.05.18-12.55.07:821][901]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBPA4BA576844B2172FB312048D36555677.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-12.55.07:824][901]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-12.55.16:133][476]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-12.55.22:167][ 64]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-12.56.20:535][438]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-12.56.30:565][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-12.56.30:601][475]LogSavePackage: Save=31.96ms
+[2017.05.18-12.56.30:601][475]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP65B692BA4E0342AC82F699822F9B157B.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-12.56.30:603][475]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-12.57.12:115][ 42]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-12.57.31:511][387]BlueprintLog: New page: Compile HeroBP
+[2017.05.18-12.57.32:268][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-12.57.32:309][419]LogSavePackage: Save=37.96ms
+[2017.05.18-12.57.32:309][419]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/HeroBPA5319DCD42432500A42C0CBDEF79DF40.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset'
+[2017.05.18-12.57.32:311][419]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset
+[2017.05.18-12.58.01:189][459]LogEditorTransaction: Undo Paste clipboard contents
+[2017.05.18-12.58.04:279][600]LogEditorTransaction: Undo Move Node
+[2017.05.18-12.59.35:018][784]BlueprintLog: New page: Compile HeroBP
+[2017.05.18-12.59.35:824][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-12.59.35:869][825]LogSavePackage: Save=42.98ms
+[2017.05.18-12.59.35:869][825]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/HeroBP436985D24DFB8286F3A56C9CF8ECD1ED.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset'
+[2017.05.18-12.59.35:871][825]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset
+[2017.05.18-12.59.53:874][462]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-12.59.53:895][462]LightingResults: New page: Lighting Build
+[2017.05.18-12.59.53:898][462]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.05.18-12.59.53:899][462]MapCheck: New page: Map Check
+[2017.05.18-12.59.53:899][462]LightingResults: New page: Lighting Build
+[2017.05.18-12.59.53:916][462]LogTemp:Display: Removed shader map 0x000001B4827B2780 from material 0x000001B53C0F8B80
+[2017.05.18-12.59.53:916][462]LogTemp:Display: Removed shader map 0x000001B58FF99280 from material 0x000001B53C0F8B80
+[2017.05.18-12.59.53:930][462]LogAIModule: Creating AISystem for world Untitled_2
+[2017.05.18-12.59.53:938][462]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_2.Untitled_2:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-12.59.53:940][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-12.59.53:949][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-12.59.54:036][462]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.758ms to complete.
+[2017.05.18-12.59.54:036][462]LogFileHelpers: Loading map 'Template_Default' took 0.165
+[2017.05.18-13.00.00:599][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/enemylevel" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.00.00:640][701]LogSavePackage: Save=24.93ms
+[2017.05.18-13.00.00:640][701]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/enemylevelD6EFF9D74334E8E8A1FC88A119443E50.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap'
+[2017.05.18-13.00.00:641][701]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap
+[2017.05.18-13.00.00:657][701]LogFileHelpers: Saving map 'enemylevel' took 0.351
+[2017.05.18-13.00.11:765][264]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.00.11:775][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.00.11:775][264]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:00:11 AM)
+[2017.05.18-13.00.11:775][264]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.00.11:777][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001894s)
+[2017.05.18-13.00.11:777][264]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.00.11:778][264]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2017.05.18-13.00.11:778][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.003487s)
+[2017.05.18-13.00.11:798][264]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.00.11:813][264]LogInit: FAudioDevice initialized.
+[2017.05.18-13.00.11:842][264]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.00.11:844][264]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.00.11
+[2017.05.18-13.00.11:844][264]LogWorld: Bringing up level for play took: 0.001446
+[2017.05.18-13.00.11:846][264]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel -0.19
+[2017.05.18-13.01.14:473][901]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.01.14:482][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.01.14:482][901]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:01:14 AM)
+[2017.05.18-13.01.14:482][901]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.01.14:483][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001496s)
+[2017.05.18-13.01.14:484][901]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.01.14:484][901]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2017.05.18-13.01.14:485][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002665s)
+[2017.05.18-13.01.14:504][901]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.01.14:518][901]LogInit: FAudioDevice initialized.
+[2017.05.18-13.01.14:550][901]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.01.14:552][901]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.01.14
+[2017.05.18-13.01.14:552][901]LogWorld: Bringing up level for play took: 0.001347
+[2017.05.18-13.01.14:554][901]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel 0.518
+[2017.05.18-13.02.04:616][492]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.02.44:830][813]BlueprintLog: New page: Compile BulletBP
+[2017.05.18-13.02.45:683][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-13.02.45:705][847]LogSavePackage: Save=19.13ms
+[2017.05.18-13.02.45:705][847]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/BulletBPF33912154676D549D7FC0EA290A4BBA3.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset'
+[2017.05.18-13.02.45:707][847]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset
+[2017.05.18-13.02.54:988][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/enemylevel" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.02.55:039][464]LogSavePackage: Save=31.59ms
+[2017.05.18-13.02.55:039][464]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/enemylevelECD9F50445384CD57E83E4B8B2BD3CC7.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap'
+[2017.05.18-13.02.55:042][464]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/enemylevel.umap
+[2017.05.18-13.02.55:597][528]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.02.55:608][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.02.55:608][528]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:02:55 AM)
+[2017.05.18-13.02.55:608][528]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.02.55:610][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001596s)
+[2017.05.18-13.02.55:610][528]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.02.55:611][528]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2017.05.18-13.02.55:611][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002875s)
+[2017.05.18-13.02.55:633][528]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.02.55:645][528]LogInit: FAudioDevice initialized.
+[2017.05.18-13.02.55:674][528]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.02.55:676][528]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.02.55
+[2017.05.18-13.02.55:676][528]LogWorld: Bringing up level for play took: 0.001326
+[2017.05.18-13.02.55:678][528]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel -0.357
+[2017.05.18-13.03.02:141][ 63]Cmd: SELECT NONE
+[2017.05.18-13.03.03:204][190]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.03.03:217][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.03.03:217][190]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:03:03 AM)
+[2017.05.18-13.03.03:217][190]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.03.03:219][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001464s)
+[2017.05.18-13.03.03:219][190]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.03.03:220][190]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2017.05.18-13.03.03:220][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002959s)
+[2017.05.18-13.03.03:240][190]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.03.03:252][190]LogInit: FAudioDevice initialized.
+[2017.05.18-13.03.03:285][190]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.03.03:287][190]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.03.03
+[2017.05.18-13.03.03:287][190]LogWorld: Bringing up level for play took: 0.001387
+[2017.05.18-13.03.03:289][190]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel -0.746
+[2017.05.18-13.03.15:473][586]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.03.15:487][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.03.15:487][586]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:03:15 AM)
+[2017.05.18-13.03.15:487][586]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.03.15:489][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001476s)
+[2017.05.18-13.03.15:489][586]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.03.15:489][586]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.05.18-13.03.15:490][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002578s)
+[2017.05.18-13.03.15:509][586]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.03.15:521][586]LogInit: FAudioDevice initialized.
+[2017.05.18-13.03.15:554][586]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.03.15:556][586]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.03.15
+[2017.05.18-13.03.15:557][586]LogWorld: Bringing up level for play took: 0.001321
+[2017.05.18-13.03.15:558][586]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel -0.477
+[2017.05.18-13.03.58:190][578]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.03.58:200][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.03.58:200][578]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:03:58 AM)
+[2017.05.18-13.03.58:200][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.03.58:202][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001478s)
+[2017.05.18-13.03.58:202][578]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.03.58:203][578]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2017.05.18-13.03.58:203][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002738s)
+[2017.05.18-13.03.58:223][578]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.03.58:236][578]LogInit: FAudioDevice initialized.
+[2017.05.18-13.03.58:270][578]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.03.58:272][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.03.58
+[2017.05.18-13.03.58:272][578]LogWorld: Bringing up level for play took: 0.001443
+[2017.05.18-13.03.58:274][578]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel 0.239
+[2017.05.18-13.04.08:592][713]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.04.08:602][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.04.08:602][713]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:04:08 AM)
+[2017.05.18-13.04.08:602][713]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.04.08:603][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001398s)
+[2017.05.18-13.04.08:604][713]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.04.08:604][713]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2017.05.18-13.04.08:604][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002323s)
+[2017.05.18-13.04.08:625][713]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.04.08:638][713]LogInit: FAudioDevice initialized.
+[2017.05.18-13.04.08:670][713]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.04.08:672][713]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.04.08
+[2017.05.18-13.04.08:672][713]LogWorld: Bringing up level for play took: 0.001390
+[2017.05.18-13.04.08:674][713]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel 0.639
+[2017.05.18-13.04.30:412][959]Cmd: SELECT NONE
+[2017.05.18-13.04.30:964][ 25]Cmd: SELECT NONE
+[2017.05.18-13.04.51:241][588]BlueprintLog: New page: Compile HeroBP
+[2017.05.18-13.04.53:022][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-13.04.53:066][624]LogSavePackage: Save=40.98ms
+[2017.05.18-13.04.53:066][624]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/HeroBP1EA6196045361AE214B0FB889C5BDC92.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset'
+[2017.05.18-13.04.53:069][624]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset
+[2017.05.18-13.04.54:483][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.04.54:563][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-13.04.55:017][766]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.04.55:023][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.04.55:024][766]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:04:55 AM)
+[2017.05.18-13.04.55:024][766]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.04.55:026][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001849s)
+[2017.05.18-13.04.55:026][766]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.04.55:026][766]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2017.05.18-13.04.55:027][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002913s)
+[2017.05.18-13.04.55:046][766]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.04.55:058][766]LogInit: FAudioDevice initialized.
+[2017.05.18-13.04.55:085][766]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.04.55:087][766]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.04.55
+[2017.05.18-13.04.55:087][766]LogWorld: Bringing up level for play took: 0.001589
+[2017.05.18-13.04.55:089][766]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel 1.054
