@@ -2803,3 +2803,49 @@ Make sure 'EnemySpawnerBP_C' has been compiled for  Get SpawnVolume
 [2017.05.18-14.27.49:527][ 72]LogSavePackage: Save=46.83ms
 [2017.05.18-14.27.49:527][ 72]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map6A58E78E40D64BDBD6FDC6BA536A7E86.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
 [2017.05.18-14.27.49:529][ 72]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-14.28.41:145][792]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.29.45:231][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-14.29.45:295][917]LogSavePackage: Save=45.33ms
+[2017.05.18-14.29.45:295][917]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapBB7764B545FD1CC492CABBA90E7457DB.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-14.29.45:296][917]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-14.30.56:579][524]BlueprintLog: New page: Compile EnemyTargetAI
+[2017.05.18-14.30.57:400][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyTargetAI" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset" SILENT=true
+[2017.05.18-14.30.57:421][561]LogSavePackage: Save=19.02ms
+[2017.05.18-14.30.57:421][561]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyTargetAI1D32F495405D1E9CAB2A48AAF7871507.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset'
+[2017.05.18-14.30.57:423][561]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyTargetAI.uasset
+[2017.05.18-14.31.21:589][626]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.31.33:167][982]BlueprintLog: New page: Compile EnemyBP_2
+[2017.05.18-14.31.36:957][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP_2" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset" SILENT=true
+[2017.05.18-14.31.36:978][ 16]LogSavePackage: Save=16.15ms
+[2017.05.18-14.31.36:978][ 16]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP_2615473F54E38966543095197E9CE1CB1.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset'
+[2017.05.18-14.31.36:981][ 16]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP_2.uasset
+[2017.05.18-14.31.39:460][270]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.31.39:469][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.31.39:469][270]PIE: New page: PIE session: Map (May 19, 2017, 8:31:39 AM)
+[2017.05.18-14.31.39:469][270]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.31.39:478][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008093s)
+[2017.05.18-14.31.39:478][270]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.31.39:478][270]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.05.18-14.31.39:479][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008970s)
+[2017.05.18-14.31.39:497][270]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.31.39:510][270]LogInit: FAudioDevice initialized.
+[2017.05.18-14.31.39:536][270]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.31.39:539][270]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.31.39
+[2017.05.18-14.31.39:540][270]LogWorld: Bringing up level for play took: 0.002099
+[2017.05.18-14.31.39:542][270]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.493
+[2017.05.18-14.33.33:385][ 82]Cmd: TRANSACTION UNDO
+[2017.05.18-14.33.33:385][ 82]LogEditorTransaction: Undo Move Actors
+[2017.05.18-14.33.58:517][367]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-14.33.58:527][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.33.58:527][367]PIE: New page: PIE session: Map (May 19, 2017, 8:33:58 AM)
+[2017.05.18-14.33.58:527][367]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-14.33.58:535][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007794s)
+[2017.05.18-14.33.58:535][367]LogAIModule: Creating AISystem for world Map
+[2017.05.18-14.33.58:535][367]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.05.18-14.33.58:536][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008659s)
+[2017.05.18-14.33.58:556][367]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-14.33.58:568][367]LogInit: FAudioDevice initialized.
+[2017.05.18-14.33.58:598][367]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.33.58:600][367]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-23.33.58
+[2017.05.18-14.33.58:601][367]LogWorld: Bringing up level for play took: 0.001642
+[2017.05.18-14.33.58:603][367]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.568
