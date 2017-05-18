@@ -680,3 +680,83 @@ LogInit: Object subsystem initialized
 [2017.05.18-12.40.40:544][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_testlevel.testlevel up for play (max tick rate 0) at 2017.05.18-21.40.40
 [2017.05.18-12.40.40:544][897]LogWorld: Bringing up level for play took: 0.000827
 [2017.05.18-12.40.40:546][897]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_testlevel 0.511
+[2017.05.18-12.42.17:488][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/testlevel' took 0.016
+[2017.05.18-12.42.17:490][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.05.18-12.42.17:490][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2017.05.18-12.42.17:497][141]LogSavePackage: Save=3.28ms
+[2017.05.18-12.42.17:497][141]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/UE4_Mannequin_Skeleton_Auto12011C59448A66D6AE15826B7BAF8307E.tmp' to 'D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2017.05.18-12.42.17:498][141]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2017.05.18-12.42.17:498][141]LogFileHelpers: Auto-saving content packages took 0.009
+[2017.05.18-12.43.00:959][789]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-12.43.13:923][ 87]LogEditorTransaction: Undo Move Node
+[2017.05.18-12.43.14:369][112]LogEditorTransaction: Undo Create Pin Link
+[2017.05.18-12.43.14:819][154]LogEditorTransaction: Undo Add Node
+[2017.05.18-12.43.40:409][302]BlueprintLog: New page: Compile GunBP
+[2017.05.18-12.43.41:111][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-12.43.41:137][338]LogSavePackage: Save=22.91ms
+[2017.05.18-12.43.41:137][338]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/GunBP4F0BC76146E1539B41FC2FBF8E3F4F30.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Gun/GunBP.uasset'
+[2017.05.18-12.43.41:139][338]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Gun/GunBP.uasset
+[2017.05.18-12.44.29:231][531]BlueprintLog: New page: Compile HeroBP
+[2017.05.18-12.44.39:337][521]BlueprintLog: New page: Compile GunBP
+[2017.05.18-12.44.39:813][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-12.44.39:837][554]LogSavePackage: Save=21.93ms
+[2017.05.18-12.44.39:837][554]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/GunBPCD37373C41409C628F34B4AFF0122841.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Gun/GunBP.uasset'
+[2017.05.18-12.44.39:838][554]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Gun/GunBP.uasset
+[2017.05.18-12.44.50:303][463]BlueprintLog: New page: Compile HeroBP
+[2017.05.18-12.44.50:898][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-12.44.50:937][491]LogSavePackage: Save=38.11ms
+[2017.05.18-12.44.50:937][491]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/HeroBPDEFC2958424CF36EC5967FA70102412C.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset'
+[2017.05.18-12.44.50:940][491]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Hero/HeroBP.uasset
+[2017.05.18-12.45.03:654][798]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-12.45.03:664][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-12.45.03:664][798]PIE: New page: PIE session: testlevel (May 19, 2017, 6:45:03 AM)
+[2017.05.18-12.45.03:664][798]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_testlevel
+[2017.05.18-12.45.03:665][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001586s)
+[2017.05.18-12.45.03:666][798]LogAIModule: Creating AISystem for world testlevel
+[2017.05.18-12.45.03:667][798]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2017.05.18-12.45.03:667][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/testlevel.testlevel to /Game/Levels/UEDPIE_0_testlevel.testlevel (0.002996s)
+[2017.05.18-12.45.03:686][798]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-12.45.03:698][798]LogInit: FAudioDevice initialized.
+[2017.05.18-12.45.03:730][798]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-12.45.03:731][798]LogWorld: Bringing World /Game/Levels/UEDPIE_0_testlevel.testlevel up for play (max tick rate 0) at 2017.05.18-21.45.03
+[2017.05.18-12.45.03:732][798]LogWorld: Bringing up level for play took: 0.000918
+[2017.05.18-12.45.03:734][798]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_testlevel -0.302
+[2017.05.18-12.45.28:033][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-12.45.28:052][135]LogSavePackage: Save=16.58ms
+[2017.05.18-12.45.28:052][135]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/BulletBP77F1E1C74D520D0A1669619706E56932.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset'
+[2017.05.18-12.45.28:055][135]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset
+[2017.05.18-12.45.29:116][237]BlueprintLog: New page: Compile BulletBP
+[2017.05.18-12.45.29:732][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-12.45.29:753][280]LogSavePackage: Save=18.44ms
+[2017.05.18-12.45.29:753][280]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/BulletBP3660510845AB8F7267F52E9ED186D6C5.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset'
+[2017.05.18-12.45.29:754][280]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Gun/BulletBP.uasset
+[2017.05.18-12.45.30:976][425]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-12.45.30:988][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-12.45.30:988][425]PIE: New page: PIE session: testlevel (May 19, 2017, 6:45:30 AM)
+[2017.05.18-12.45.30:988][425]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_testlevel
+[2017.05.18-12.45.30:989][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001358s)
+[2017.05.18-12.45.30:990][425]LogAIModule: Creating AISystem for world testlevel
+[2017.05.18-12.45.30:991][425]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2017.05.18-12.45.30:991][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/testlevel.testlevel to /Game/Levels/UEDPIE_0_testlevel.testlevel (0.002876s)
+[2017.05.18-12.45.31:010][425]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-12.45.31:022][425]LogInit: FAudioDevice initialized.
+[2017.05.18-12.45.31:053][425]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-12.45.31:055][425]LogWorld: Bringing World /Game/Levels/UEDPIE_0_testlevel.testlevel up for play (max tick rate 0) at 2017.05.18-21.45.31
+[2017.05.18-12.45.31:055][425]LogWorld: Bringing up level for play took: 0.000789
+[2017.05.18-12.45.31:056][425]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_testlevel 1.021
+[2017.05.18-12.45.38:173][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/testlevel" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-12.45.38:215][248]LogSavePackage: Save=23.71ms
+[2017.05.18-12.45.38:215][248]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/testlevel1D5C69E841C0F1417C7C9288E4C4FB9C.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap'
+[2017.05.18-12.45.38:217][248]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap
+[2017.05.18-12.45.57:208][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/testlevel" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-12.45.57:230][487]LogTemp:Display: Removed shader map 0x000001B53CBEAE80 from material 0x000001B53E9CF880
+[2017.05.18-12.45.57:230][487]LogTemp:Display: Removed shader map 0x000001B4DD30FC80 from material 0x000001B53E9CF880
+[2017.05.18-12.45.57:230][487]LogTemp:Display: Removed shader map 0x000001B539FAE080 from material 0x000001B53E9CF880
+[2017.05.18-12.45.57:230][487]LogTemp:Display: Removed shader map 0x000001B538473C80 from material 0x000001B53E9CF880
+[2017.05.18-12.45.57:256][487]LogSavePackage: Save=24.16ms
+[2017.05.18-12.45.57:256][487]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/testlevel875616644D37EF5A27D23C931361D192.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap'
+[2017.05.18-12.45.57:257][487]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap
+[2017.05.18-12.45.57:423][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/testlevel" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-12.45.57:464][503]LogSavePackage: Save=23.58ms
+[2017.05.18-12.45.57:464][503]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/testlevel2BEC50E6487D67BAFD0D18BD3D5C75DD.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap'
+[2017.05.18-12.45.57:466][503]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/testlevel.umap
