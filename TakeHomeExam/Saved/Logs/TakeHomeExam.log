@@ -1089,3 +1089,66 @@ LogInit: Object subsystem initialized
 [2017.05.18-13.04.55:087][766]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.04.55
 [2017.05.18-13.04.55:087][766]LogWorld: Bringing up level for play took: 0.001589
 [2017.05.18-13.04.55:089][766]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel 1.054
+[2017.05.18-13.06.27:506][382]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-13.06.27:524][382]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.EnemyBP_2.CollisionCylinder is already used by CapsuleComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.REINST_EnemyBP_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-13.06.27:524][382]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.EnemyBP_2.Arrow is already used by ArrowComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.REINST_EnemyBP_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-13.06.27:524][382]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.EnemyBP_2.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.REINST_EnemyBP_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-13.06.27:524][382]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.EnemyBP_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/enemylevel.enemylevel:PersistentLevel.REINST_EnemyBP_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-13.06.29:242][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-13.06.29:278][409]LogSavePackage: Save=32.75ms
+[2017.05.18-13.06.29:278][409]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP5D2EFFAC4714CF411A4817830A67D8D3.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-13.06.29:280][409]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-13.06.32:361][632]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.06.32:368][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.06.32:368][632]PIE: New page: PIE session: enemylevel (May 19, 2017, 7:06:32 AM)
+[2017.05.18-13.06.32:368][632]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.06.32:370][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001592s)
+[2017.05.18-13.06.32:371][632]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.06.32:371][632]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2017.05.18-13.06.32:371][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.003116s)
+[2017.05.18-13.06.32:391][632]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.06.32:405][632]LogInit: FAudioDevice initialized.
+[2017.05.18-13.06.32:436][632]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.06.32:438][632]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.06.32
+[2017.05.18-13.06.32:439][632]LogWorld: Bringing up level for play took: 0.001544
+[2017.05.18-13.06.32:440][632]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_enemylevel 0.405
+[2017.05.18-13.06.35:722][995]Cmd: restartlevel
+[2017.05.18-13.06.35:729][996]LogNet: Browse: /Game/Levels/enemylevel?restart
+[2017.05.18-13.06.35:729][996]LogLoad: LoadMap: /Game/Levels/enemylevel
+[2017.05.18-13.06.35:746][996]Cmd: MEM
+[2017.05.18-13.06.35:760][996]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.06.35:760][996]LogMemory: Process Physical Memory: 2526.84 MB used, 3300.04 MB peak
+[2017.05.18-13.06.35:760][996]LogMemory: Process Virtual Memory: 4540.57 MB used, 4708.70 MB peak
+[2017.05.18-13.06.35:760][996]LogMemory: Physical Memory: 7398.80 MB used,  8920.73 MB free, 16319.53 MB total
+[2017.05.18-13.06.35:760][996]LogMemory: Virtual Memory: 5482.76 MB used,  8920.73 MB free, 134217728.00 MB total
+[2017.05.18-13.06.35:760][996]LogMemory: 
+[2017.05.18-13.06.35:760][996]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.06.35:760][996]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.06.35:762][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001639s)
+[2017.05.18-13.06.35:763][996]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.06.35:763][996]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2017.05.18-13.06.35:763][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.002931s)
+[2017.05.18-13.06.35:763][996]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.06.35:766][996]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.06.35
+[2017.05.18-13.06.35:766][996]LogWorld: Bringing up level for play took: 0.001432
+[2017.05.18-13.06.35:768][996]LogLoad: Took 0.038605 seconds to LoadMap(/Game/Levels/UEDPIE_0_enemylevel)
+[2017.05.18-13.06.38:365][280]Cmd: restartlevel
+[2017.05.18-13.06.38:373][281]LogNet: Browse: /Game/Levels/enemylevel?restart
+[2017.05.18-13.06.38:373][281]LogLoad: LoadMap: /Game/Levels/enemylevel
+[2017.05.18-13.06.38:387][281]Cmd: MEM
+[2017.05.18-13.06.38:401][281]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-13.06.38:401][281]LogMemory: Process Physical Memory: 2502.89 MB used, 3300.04 MB peak
+[2017.05.18-13.06.38:401][281]LogMemory: Process Virtual Memory: 4604.91 MB used, 4708.70 MB peak
+[2017.05.18-13.06.38:401][281]LogMemory: Physical Memory: 7411.91 MB used,  8907.62 MB free, 16319.53 MB total
+[2017.05.18-13.06.38:401][281]LogMemory: Virtual Memory: 5527.26 MB used,  8907.62 MB free, 134217728.00 MB total
+[2017.05.18-13.06.38:401][281]LogMemory: 
+[2017.05.18-13.06.38:401][281]Allocator Stats for TBB: (not implemented)
+[2017.05.18-13.06.38:401][281]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_enemylevel
+[2017.05.18-13.06.38:403][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002245s)
+[2017.05.18-13.06.38:404][281]LogAIModule: Creating AISystem for world enemylevel
+[2017.05.18-13.06.38:404][281]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2017.05.18-13.06.38:405][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/enemylevel.enemylevel to /Game/Levels/UEDPIE_0_enemylevel.enemylevel (0.003334s)
+[2017.05.18-13.06.38:405][281]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.06.38:407][281]LogWorld: Bringing World /Game/Levels/UEDPIE_0_enemylevel.enemylevel up for play (max tick rate 0) at 2017.05.18-22.06.38
+[2017.05.18-13.06.38:408][281]LogWorld: Bringing up level for play took: 0.001854
+[2017.05.18-13.06.38:409][281]LogLoad: Took 0.036866 seconds to LoadMap(/Game/Levels/UEDPIE_0_enemylevel)
