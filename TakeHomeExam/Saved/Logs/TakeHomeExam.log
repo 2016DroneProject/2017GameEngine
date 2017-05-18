@@ -1493,3 +1493,271 @@ LogInit: Object subsystem initialized
 [2017.05.18-13.20.43:578][158]LogSavePackage: Save=22.76ms
 [2017.05.18-13.20.43:578][158]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/MapEC1014CB4FD43C917E9C628441529DCF.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
 [2017.05.18-13.20.43:580][158]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.22.04:422][479]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2017.05.18-13.22.04:435][479]LogTemp:Display: Removed shader map 0x000001B59EDE9980 from material 0x000001B5AAAFF600
+[2017.05.18-13.22.04:436][479]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.18-13.22.42:987][984]Cmd: TRANSACTION UNDO
+[2017.05.18-13.22.42:987][984]LogEditorTransaction: Undo Scale Actors
+[2017.05.18-13.22.53:672][204]Cmd: TRANSACTION UNDO
+[2017.05.18-13.22.53:672][204]LogEditorTransaction: Undo Move Actors
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_655' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_656' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_657' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_658' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_659' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_660' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_661' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_662' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_663' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:676][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_664' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_665' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_666' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_667' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_668' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_669' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_670' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_671' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_672' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_673' invalid (325 verts, 0 indices).
+[2017.05.18-13.22.53:677][204]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Map.Map:PersistentLevel.ModelComponent_674' invalid (325 verts, 0 indices).
+[2017.05.18-13.23.48:692][851]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-13.23.49:817][860]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-13.23.50:608][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-13.23.50:644][898]LogSavePackage: Save=33.14ms
+[2017.05.18-13.23.50:644][898]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP521F83934FA0609153898A85F3E02E16.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-13.23.50:645][898]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-13.24.41:587][467]BlueprintLog: New page: Compile EnemySpawnerBP
+[2017.05.18-13.24.43:115][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemySpawnerBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset" SILENT=true
+[2017.05.18-13.24.43:125][490]LogSavePackage: Save=8.44ms
+[2017.05.18-13.24.43:125][490]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemySpawnerBP69CECBF84ACC4E6AD4B0F88CE907C910.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset'
+[2017.05.18-13.24.43:128][490]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset
+[2017.05.18-13.25.13:239][524]BlueprintLog: New page: Compile EnemySpawnerBP
+[2017.05.18-13.26.42:815][639]LogBlueprint:Warning: [EnemySpawnerBP] 'SpawnVolume' variable not found. Base class was probably changed.
+[2017.05.18-13.26.42:824][639]LogBlueprint:Warning: [EnemySpawnerBP] 'NumberEnemies' variable not found. Base class was probably changed.
+[2017.05.18-13.27.09:708][842]BlueprintLog: New page: Compile EnemySpawnerBP
+[2017.05.18-13.27.09:717][842]LogBlueprint:Warning: [Compiler EnemySpawnerBP] Warning Could not find a variable named "NumberEnemies" in 'ShooterGameMode_C'.
+Make sure 'ShooterGameMode_C' has been compiled for  Get NumberEnemies
+[2017.05.18-13.27.09:718][842]LogBlueprint:Error: [Compiler EnemySpawnerBP] Error The property associated with  Number Enemies  could not be found
+[2017.05.18-13.27.09:936][842]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "NumberEnemies" in 'ShooterGameMode_C'.
+Make sure 'ShooterGameMode_C' has been compiled for  Get NumberEnemies
+[2017.05.18-13.27.09:936][842]BlueprintEditorCompileResults:Error: Error The property associated with  Number Enemies  could not be found
+[2017.05.18-13.27.09:936][842]LogBlueprint:Warning: [Compiler EnemySpawnerBP] Warning [4131.35] Compile of EnemySpawnerBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 227 ms] (/Game/Enemy/EnemySpawnerBP.EnemySpawnerBP)
+[2017.05.18-13.28.32:245][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/hud" FILE="D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset" SILENT=true
+[2017.05.18-13.28.32:252][170]LogSavePackage: Save=5.45ms
+[2017.05.18-13.28.32:252][170]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/hud96716C1D47AEF679EC20AD9D82FE41ED.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset'
+[2017.05.18-13.28.32:255][170]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset
+[2017.05.18-13.30.14:189][794]LogSlate: Took 0.002330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.18-13.30.51:299][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_0.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:299][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_1.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:299][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_2.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:299][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_3.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:299][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_4.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:299][215]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_353).  Import failed...
+[2017.05.18-13.30.51:299][215]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.05.18-13.30.51:300][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_0.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:300][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_1.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:300][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_2.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:300][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_3.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:300][215]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUD/hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_70:HUD_C_4.WidgetTree.CanvasPanel_0
+[2017.05.18-13.30.51:300][215]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_70:HUD_C_1.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_569).  Import failed...
+[2017.05.18-13.30.51:300][215]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_3''
+[2017.05.18-13.30.56:048][303]LogEditorTransaction: Undo Animatable Property Changed
+[2017.05.18-13.30.56:821][329]LogEditorTransaction: Undo Animatable Property Changed
+[2017.05.18-13.30.58:972][437]LogEditorTransaction: Undo Animatable Property Changed
+[2017.05.18-13.30.59:185][438]LogEditorTransaction: Undo Animatable Property Changed
+[2017.05.18-13.31.01:129][536]LogEditorTransaction: Undo Paste clipboard contents
+[2017.05.18-13.31.01:435][537]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2017.05.18-13.31.01:726][538]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2017.05.18-13.32.16:522][ 54]LogEditorTransaction: Undo Move Widget
+[2017.05.18-13.32.17:674][ 54]LogEditorTransaction: Undo Edit Size Rule
+[2017.05.18-13.32.19:325][ 55]LogEditorTransaction: Undo Edit Percent
+[2017.05.18-13.34.19:452][114]BlueprintLog: New page: Compile HUD
+[2017.05.18-13.34.20:876][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/hud" FILE="D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset" SILENT=true
+[2017.05.18-13.34.20:888][141]LogSavePackage: Save=8.70ms
+[2017.05.18-13.34.20:888][141]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/hudA10F150F478F35C1E777C88260F60A24.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset'
+[2017.05.18-13.34.20:891][141]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset
+[2017.05.18-13.36.15:845][143]LogLinker: Can't find file '/Game/UI/HUD'
+[2017.05.18-13.36.15:846][143]LogLinker: Can't find file '/Game/UI/HUD'
+[2017.05.18-13.36.15:848][143]LogBlueprint:Warning: [HUD] 'ScoreText' variable not found. Base class was probably changed.
+[2017.05.18-13.36.38:702][803]BlueprintLog: New page: Compile HUD
+[2017.05.18-13.36.38:707][803]LogBlueprint:Warning: [Compiler HUD] Warning Could not find a variable named "ScoreText" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Get ScoreText
+[2017.05.18-13.36.38:707][803]LogBlueprint:Error: [Compiler HUD] Error The property associated with  Score Text  could not be found
+[2017.05.18-13.36.38:873][803]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ScoreText" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Get ScoreText
+[2017.05.18-13.36.38:873][803]BlueprintEditorCompileResults:Error: Error The property associated with  Score Text  could not be found
+[2017.05.18-13.36.38:874][803]LogBlueprint:Warning: [Compiler HUD] Warning [4700.29] Compile of HUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 171 ms] (/Game/HUD/hud.HUD)
+[2017.05.18-13.36.39:616][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/hud" FILE="D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset" SILENT=true
+[2017.05.18-13.36.39:629][841]LogSavePackage: Save=11.52ms
+[2017.05.18-13.36.39:629][841]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/hudB7A08FD04D29BEB1CB0E0DB69C2D9444.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset'
+[2017.05.18-13.36.39:632][841]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset
+[2017.05.18-13.36.48:012][488]BlueprintLog: New page: Compile HUD
+[2017.05.18-13.37.13:739][370]BlueprintLog: New page: Compile HUD
+[2017.05.18-13.37.14:917][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/hud" FILE="D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset" SILENT=true
+[2017.05.18-13.37.14:934][451]LogSavePackage: Save=15.66ms
+[2017.05.18-13.37.14:934][451]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/hud5F87B83E4DCB1DEC10A7DA83BB3D0AB1.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset'
+[2017.05.18-13.37.14:938][451]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/HUD/hud.uasset
+[2017.05.18-13.37.17:361][660]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.37.17:373][660]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.18-13.37.17:373][660]LogPlayLevel: [PlayLevel] Compiling EnemySpawnerBP before play...
+[2017.05.18-13.37.17:462][660]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2017.05.18-13.37.17:462][660]PIE: New page: PIE session: Map (May 19, 2017, 7:37:17 AM)
+[2017.05.18-13.37.17:462][660]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.37.17:471][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008280s)
+[2017.05.18-13.37.17:471][660]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.37.17:471][660]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.05.18-13.37.17:472][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.009167s)
+[2017.05.18-13.37.17:491][660]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.37.17:507][660]LogInit: FAudioDevice initialized.
+[2017.05.18-13.37.17:537][660]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.37.17:539][660]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.37.17
+[2017.05.18-13.37.17:539][660]LogWorld: Bringing up level for play took: 0.000989
+[2017.05.18-13.37.17:541][660]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.495
+[2017.05.18-13.37.33:085][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.37.33:125][402]LogSavePackage: Save=25.22ms
+[2017.05.18-13.37.33:125][402]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map2F34DA124009909B2CAADA973F386265.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.37.33:127][402]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.39.36:583][ 76]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.39.55:467][426]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.39.56:408][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-13.39.56:425][484]LogSavePackage: Save=13.86ms
+[2017.05.18-13.39.56:425][484]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameMode2DB919444A53564F4D51FE813CC1F687.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-13.39.56:428][484]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-13.40.07:220][878]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/UI/HUD.HUD_C',MemberName="UpdateScore",MemberGuid=0B31507544913E7094E7F1977F99A070)'
+[2017.05.18-13.40.23:107][305]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.40.24:160][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-13.40.24:178][370]LogSavePackage: Save=16.58ms
+[2017.05.18-13.40.24:178][370]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameMode33666276403943CAD80FCFA464C515B8.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-13.40.24:181][370]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-13.40.57:829][461]BlueprintLog: New page: Compile EnemyBP
+[2017.05.18-13.40.58:940][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-13.40.58:978][534]LogSavePackage: Save=34.68ms
+[2017.05.18-13.40.58:978][534]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemyBP7352655947D14762AA414391B3D98FDA.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-13.40.58:981][534]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemyBP.uasset
+[2017.05.18-13.41.21:884][583]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-13.41.25:565][955]BlueprintLog: New page: Compile ShooterGameMode
+[2017.05.18-13.41.39:633][379]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.41.43:075][781]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.41.44:081][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.41.44:091][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.41.44:091][898]PIE: New page: PIE session: Map (May 19, 2017, 7:41:44 AM)
+[2017.05.18-13.41.44:091][898]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.41.44:099][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007500s)
+[2017.05.18-13.41.44:099][898]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.41.44:099][898]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.05.18-13.41.44:100][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008299s)
+[2017.05.18-13.41.44:119][898]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.41.44:133][898]LogInit: FAudioDevice initialized.
+[2017.05.18-13.41.44:162][898]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.41.44:164][898]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.41.44
+[2017.05.18-13.41.44:164][898]LogWorld: Bringing up level for play took: 0.001131
+[2017.05.18-13.41.44:166][898]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.131
+[2017.05.18-13.42.06:286][739]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.07:950][935]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.08:447][994]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.08:853][ 42]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.09:576][128]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.12:113][428]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.12:886][520]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.14:373][682]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.14:955][751]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.23:906][820]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.42.23:916][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.42.23:917][820]PIE: New page: PIE session: Map (May 19, 2017, 7:42:23 AM)
+[2017.05.18-13.42.23:917][820]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.42.23:924][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007632s)
+[2017.05.18-13.42.23:925][820]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.42.23:925][820]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.05.18-13.42.23:925][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008353s)
+[2017.05.18-13.42.23:944][820]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.42.23:957][820]LogInit: FAudioDevice initialized.
+[2017.05.18-13.42.23:984][820]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.42.23:986][820]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.42.23
+[2017.05.18-13.42.23:987][820]LogWorld: Bringing up level for play took: 0.001133
+[2017.05.18-13.42.23:988][820]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map -0.047
+[2017.05.18-13.42.38:977][318]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.41:372][531]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.18-13.42.41:387][531]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.18-13.42.48:666][340]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.50:141][516]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.50:841][599]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.42.50:851][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.42.50:852][599]PIE: New page: PIE session: Map (May 19, 2017, 7:42:50 AM)
+[2017.05.18-13.42.50:852][599]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.42.50:859][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007722s)
+[2017.05.18-13.42.50:860][599]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.42.50:860][599]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.05.18-13.42.50:860][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008487s)
+[2017.05.18-13.42.50:880][599]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.42.50:892][599]LogInit: FAudioDevice initialized.
+[2017.05.18-13.42.50:920][599]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.42.50:922][599]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.42.50
+[2017.05.18-13.42.50:923][599]LogWorld: Bringing up level for play took: 0.000976
+[2017.05.18-13.42.50:924][599]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.889
+[2017.05.18-13.42.58:496][ 57]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.42.59:917][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.42.59:961][223]LogSavePackage: Save=27.15ms
+[2017.05.18-13.42.59:961][223]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map0FF056344BED224AD52E6F9F59CC9426.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.42.59:964][223]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
+[2017.05.18-13.43.01:400][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.18-13.43.01:418][378]LogSavePackage: Save=16.62ms
+[2017.05.18-13.43.01:418][378]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/ShooterGameMode4BD2A4BA4EE95F5F46AEA5A844810B5A.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset'
+[2017.05.18-13.43.01:422][378]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/ShooterGameMode.uasset
+[2017.05.18-13.43.01:425][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemySpawnerBP" FILE="D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset" SILENT=true
+[2017.05.18-13.43.01:444][378]LogSavePackage: Save=15.67ms
+[2017.05.18-13.43.01:445][378]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/EnemySpawnerBP29287EEE4518AD7BDA2901B5180091A4.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset'
+[2017.05.18-13.43.01:447][378]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Enemy/EnemySpawnerBP.uasset
+[2017.05.18-13.43.04:744][772]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.43.06:236][950]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.43.19:415][356]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.43.30:460][579]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.43.30:471][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.43.30:471][579]PIE: New page: PIE session: Map (May 19, 2017, 7:43:30 AM)
+[2017.05.18-13.43.30:471][579]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.43.30:479][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007573s)
+[2017.05.18-13.43.30:480][579]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.43.30:480][579]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2017.05.18-13.43.30:480][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008318s)
+[2017.05.18-13.43.30:499][579]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.43.30:512][579]LogInit: FAudioDevice initialized.
+[2017.05.18-13.43.30:546][579]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.43.30:548][579]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.43.30
+[2017.05.18-13.43.30:548][579]LogWorld: Bringing up level for play took: 0.000996
+[2017.05.18-13.43.30:550][579]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.514
+[2017.05.18-13.43.35:071][933]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.18-13.43.35:086][933]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.18-13.43.40:318][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.43.40:328][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.43.40:328][508]PIE: New page: PIE session: Map (May 19, 2017, 7:43:40 AM)
+[2017.05.18-13.43.40:328][508]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.43.40:336][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007584s)
+[2017.05.18-13.43.40:336][508]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.43.40:337][508]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2017.05.18-13.43.40:337][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008382s)
+[2017.05.18-13.43.40:357][508]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.43.40:369][508]LogInit: FAudioDevice initialized.
+[2017.05.18-13.43.40:398][508]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.43.40:400][508]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.43.40
+[2017.05.18-13.43.40:400][508]LogWorld: Bringing up level for play took: 0.000976
+[2017.05.18-13.43.40:402][508]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.366
+[2017.05.18-13.43.42:769][706]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.43.46:898][192]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.43.48:451][377]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.18-13.43.52:216][826]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.18-13.43.52:228][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-13.43.52:228][826]PIE: New page: PIE session: Map (May 19, 2017, 7:43:52 AM)
+[2017.05.18-13.43.52:228][826]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Map
+[2017.05.18-13.43.52:235][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007445s)
+[2017.05.18-13.43.52:236][826]LogAIModule: Creating AISystem for world Map
+[2017.05.18-13.43.52:236][826]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.05.18-13.43.52:236][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Map.Map to /Game/Levels/UEDPIE_0_Map.Map (0.008209s)
+[2017.05.18-13.43.52:256][826]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-13.43.52:268][826]LogInit: FAudioDevice initialized.
+[2017.05.18-13.43.52:302][826]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-13.43.52:304][826]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2017.05.18-22.43.52
+[2017.05.18-13.43.52:305][826]LogWorld: Bringing up level for play took: 0.001163
+[2017.05.18-13.43.52:306][826]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Map 0.271
+[2017.05.18-13.44.00:203][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Map" FILE="D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-13.44.00:250][674]LogSavePackage: Save=29.36ms
+[2017.05.18-13.44.00:250][674]LogSavePackage: Moving 'D:/2017GameEngine/TakeHomeExam/Saved/Map649E5FA4426E3098B33EAF811EF7351D.tmp' to 'D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap'
+[2017.05.18-13.44.00:253][674]LogSavePackage:Display: Finished SavePackage D:/2017GameEngine/TakeHomeExam/Content/Levels/Map.umap
